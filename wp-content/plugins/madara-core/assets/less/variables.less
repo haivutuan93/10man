@@ -1,0 +1,199 @@
+//
+// Custom CactusThemes Variables
+// --------------------------------------------------
+
+// Custom CactusThemes's Variables which will be overridden the Bootstrap's Variables
+
+// Colors
+
+@gray-base: #000;
+@gray-darkest: lighten(@gray-base, 6.5%); // #111
+@gray-darker: lighten(@gray-base, 13.5%); // #222
+@gray-dark: lighten(@gray-base, 20%); // #333
+@gray: lighten(@gray-base, 33.5%); // #555
+@gray-light: lighten(@gray-base, 60%); // #999
+@gray-lighter: lighten(@gray-base, 93.5%); // #eee
+@gray-lightest: lighten(@gray-base, 100%); // #fff
+
+@gray-primary: #efefef;
+@gray-secondary: #f6f6f6;
+
+@brand-primary: #eb3349;
+@brand-primary_lighten: #f45c43;
+@brand-secondary: #75b22d;
+
+@brand-success: #5cb85c;
+@brand-info: #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger: #d9534f;
+
+@background-hover: #0f0f0f;
+
+// Scaffolding
+
+@body-bg-base: @gray-lightest;
+@body-bg-primary: #f6f6f6;
+@body-bg-dark: #262626;
+
+//footer
+@footer-bg-dark: #363636;
+@footer-dark-link-color: #cccccc;
+
+@text-color-base: #888888;
+@text-color-primary: #333333;
+@text-color-secondary: #272727;
+
+//Text
+@text-color: @text-color-base;
+
+//Link
+@link-color: @text-color-primary;
+@link-hover-color: @brand-primary;
+
+// Typography
+@font-family-primary: ~"'Montserrat', sans-serif";
+@font-family-secondary: ~"'Lato', sans-serif";
+@font-family-special: ~"'Kaushan Script', cursive";
+
+@font-family-sans-serif: ~"@{font-family-primary}, Helvetica, Arial, sans-serif";
+@font-family-serif: ~"Georgia, 'Times New Roman', Times, serif";
+
+@font-family-monospace: ~"Menlo, Monaco, Consolas, 'Courier New', monospace";
+
+@fontawesome: ~"FontAwesome";
+@ionicons: ~"Ionicons";
+
+@font-size-base: 14px;
+
+@font-size-large: ceil((@font-size-base * 8.571428)); // ~120px
+@font-size-small: ceil((@font-size-base * 0.857142)); // ~12px
+
+@font-size-h1: floor((@font-size-base * 4.642857)); // ~65px
+@font-size-h2: floor((@font-size-base * 2.857142)); // ~40px
+@font-size-h3: ceil((@font-size-base * 1.714285)); // ~24px
+@font-size-h4: ceil((@font-size-base * 1.285714)); // ~18px
+@font-size-h5: @font-size-base;
+@font-size-h6: (@font-size-base - 1); // ~13px
+
+// Carousel
+
+@carousel-font-size: (@font-size-base + 2);
+@carousel-color: @text-color-base;
+@carousel-btn: @brand-secondary;
+@carousel-bg: @gray-lightest;
+
+@line-height-base: 1.7857142; // 25/14
+@line-height-computed: floor((@font-size-base * @line-height-base)); // ~20px
+
+@heading-font-family: inherit;
+@heading-font-weight: 500;
+@heading-line-height: 1.1;
+@heading-color: inherit;
+
+//Heading
+@heading-color-base: @text-color-base;
+@heading-color-primary: @text-color-primary;
+@heading-color-secondary: @text-color-secondary;
+
+// Table
+@table-padding: 13px 20px;
+@table-bg-even: #f1f1f1;
+@table-border-color: #62789c;
+@table-bg-hover: #ededed;
+
+//Star Color
+@star-color: #ffd900;
+
+// Forms
+@input-bg: #f4f4f4;
+@input-color: #666;
+@input-color-focus: #111;
+@input-border: #ccc;
+
+// Buttons
+@button-color: #75b22d;
+@button-color-hover: #91d046;
+@button-shadow-color: #dcefc5;
+// Dropdowns
+
+// widget
+@widget-title-color: #333333;
+@widget-text-color: #767676;
+@widget-footer-title-color: #3a3a3a;
+@widget-footer-text-color: #505050;
+@widget-text-meta-color: #888888;
+
+// Bootstrap Media Queries
+
+// Extra small screen / phone
+//** Deprecated `@screen-xs` as of v3.0.1
+@screen-xs: 480px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xs-min: @screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-phone: @screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `@screen-sm` as of v3.0.1
+@screen-sm: 768px;
+@screen-sm-min: @screen-sm;
+//** Deprecated `@screen-tablet` as of v3.0.1
+@screen-tablet: @screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `@screen-md` as of v3.0.1
+@screen-md: 992px;
+@screen-md-min: @screen-md;
+//** Deprecated `@screen-desktop` as of v3.0.1
+@screen-desktop: @screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `@screen-lg` as of v3.0.1
+@screen-lg: 1200px;
+@screen-lg-min: @screen-lg;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-lg-desktop: @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max: (@screen-sm-min - 1);
+@screen-sm-max: (@screen-md-min - 1);
+@screen-md-max: (@screen-lg-min - 1);
+
+// Cactus Media Queries
+
+// Android
+@screen-android: 360px;
+
+// iPhone 5/5s
+@screen-iphone-small: 320px;
+// iPhone 6/7
+@screen-iphone-medium: 375px;
+// iPhone 6/7 Plus
+@screen-iphone-big: 414px;
+
+// Google Resizer Medium
+@screen-resizer-medium: 840px;
+// Google Resizer Large
+@screen-resizer-large: 960px;
+
+//Quick Shortcut to Media Queries
+
+//Extra Small Desktop Min-Width
+@min-xs-desktop: ~"only screen and (min-width: @{screen-xs-min})";
+//Extra Small Desktop Max-Width
+@max-xs-desktop: ~"only screen and (max-width: @{screen-xs-max})";
+
+//Small Desktop Min-Width
+@min-sm-desktop: ~"only screen and (min-width: @{screen-sm-min})";
+//Small Desktop Max-Width
+@max-sm-desktop: ~"only screen and (max-width: @{screen-sm-max})";
+
+//Medium Desktop Min-Width
+@min-md-desktop: ~"only screen and (min-width: @{screen-md-min})";
+//Medium Desktop Max-Width
+@max-md-desktop: ~"only screen and (max-width: @{screen-md-max})";
+
+//Large Desktop Min-Width
+@min-lg-desktop: ~"only screen and (min-width: @{screen-lg-min})";
+
+

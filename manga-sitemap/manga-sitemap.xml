@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://10manga.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?>
+<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap>
+<loc>https://10manga.com/manga-sitemap/0-100000.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://10manga.com/manga-sitemap/100000-200000.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://10manga.com/manga-sitemap/200000-300000.xml</loc>
+</sitemap>
+</sitemapindex>
+
+

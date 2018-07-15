@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+#madara_shortcode_button,
+#madara_shortcode_post_slider,
+#madara_shortcode_widget,
+#madara_shortcode_block,
+#madara_shortcode_typo,
+#madara_shortcode_blog,
+#madara_shortcode_heading,
+#madara_shortcode_manga_listing,
+#madara_shortcode_manga_chapter {
+    display: none;
+}
+
+#madara_shortcode_listshortcode i.mce-ico.mce-i-icons {
+    background: url(../img/all-shortcodes.png) no-repeat center;
+}
+
+#madara_shortcode_member .mce-i-icon-member {
+    background: url(../img/user_male_add.png) no-repeat center;
+    background-size: contain;
+}
+
+.mce-container[aria-label="Shortcode"] {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 80%;
+    top: 10% !important;
+    width: 400px !important;
+}
+
+.mce-floatpanel.mce-window {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 80%;
+    top: 10% !important;
+}
+
+/* Fix Style Shortcode Heading in Classic Editor*/
+.mce-container[aria-label="Heading"] {
+    width: 730px !important;
+    left: 20% !important;
+    right: auto !important;
+}
+
+.mce-container[aria-label="Heading"] label {
+    width: 340px !important;
+}
+
+.mce-container[aria-label="Heading"] input, .mce-container[aria-label="Heading"] textarea, .mce-container[aria-label="Heading"] .mce-listbox {
+    left: 340px !important;
+    width: 340px !important;
+}
+
+.mce-container[aria-label="Heading"] #mceu_91-l {
+    height: 40px !important;
+    line-height: 15px !important;
+}
+
+.mce-container[aria-label="Heading"] #mceu_91-l:after {
+    content: "for example 'fa fa-home'. This parameter works with style 1 & 2";
+    float: left;
+    color: #666;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Fix Style Shortcode Heading in Classic Editor*/
+
+.mce-container-body.mce-abs-layout .wp-picker-container {
+    float: right
+}
+
+.mce-container-body.mce-abs-layout .wp-picker-container .wp-picker-holder {
+    display: none
+}
+
+.mce-container-body.mce-abs-layout .wp-picker-container.wp-picker-active .wp-picker-holder {
+    display: block;
+    position: absolute;
+    z-index: 10001;
+    padding: 10px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    right: 0;
+    top: 31px;
+}
+
+.mce-container-body.mce-abs-layout .wp-picker-container.wp-picker-active .wp-picker-holder .iris-picker {
+    display: block !important;
+}
+
+.mce-container-body.mce-abs-layout .wp-picker-container .wp-picker-input-wrap .mce-textbox {
+    display: block !important;
+    right: 0
+}
+
+.mce-container-body.mce-abs-layout .wp-picker-container .wp-color-result {
+    position: absolute;
+    z-index: 10000;
+    top: 3px;
+    right: 3px;
+    border: 1px solid #CCC;
+    box-shadow: none
+}
+
+.mce-container-body.mce-abs-layout .wp-picker-container.wp-picker-active .wp-picker-clear {
+    position: absolute;
+    right: 3px;
+    top: 3px
+}
+
+.mce-container-body.mce-abs-layout .wp-picker-container.wp-picker-active .wp-color-result {
+    display: none
+}

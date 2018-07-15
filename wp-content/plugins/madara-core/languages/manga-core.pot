@@ -1,0 +1,2039 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: manga-core\n"
+"POT-Creation-Date: 2018-02-28 10:52+0700\n"
+"PO-Revision-Date: 2018-02-28 10:52+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: madara-core/wp-manga.php:140
+msgid "WP Manga Storage"
+msgstr ""
+
+#: madara-core/wp-manga.php:402 madara-core/inc/post-type.php:27
+#: madara-core/inc/post-type.php:28 madara-core/inc/post-type.php:29
+#: madara-core/templates/manga-breadcrumb.php:24
+msgid "Manga"
+msgstr ""
+
+#: madara-core/wp-manga.php:428
+msgid "Showing search results for: "
+msgstr ""
+
+#: madara-core/wp-manga.php:544
+msgid "Cannot get Google Refresh Token, please try again"
+msgstr ""
+
+#: madara-core/wp-manga.php:565
+msgid "Imgur"
+msgstr ""
+
+#: madara-core/wp-manga.php:573
+msgid "Blogspot"
+msgstr ""
+
+#: madara-core/wp-manga.php:583
+msgid "Amazon S3"
+msgstr ""
+
+#: madara-core/wp-manga.php:655
+msgid "Tags: "
+msgstr ""
+
+#: madara-core/inc/ajax.php:110 madara-core/inc/ajax.php:1193
+msgid "Missing post ID"
+msgstr ""
+
+#: madara-core/inc/ajax.php:114
+msgid "Missing Query Page"
+msgstr ""
+
+#: madara-core/inc/ajax.php:118
+msgid "Missing Chapter param"
+msgstr ""
+
+#: madara-core/inc/ajax.php:158
+msgid "Missing File"
+msgstr ""
+
+#: madara-core/inc/ajax.php:162 madara-core/inc/ajax.php:232
+#: madara-core/inc/ajax.php:254 madara-core/inc/ajax.php:278
+#: madara-core/inc/ajax.php:576
+msgid "Missing Post ID"
+msgstr ""
+
+#: madara-core/inc/ajax.php:166 madara-core/inc/ajax.php:236
+msgid "Missing Chapter Type"
+msgstr ""
+
+#: madara-core/inc/ajax.php:240
+msgid "Invalid Chapter Type"
+msgstr ""
+
+#: madara-core/inc/ajax.php:269
+msgid "Chapter is created successfully!"
+msgstr ""
+
+#: madara-core/inc/ajax.php:349 madara-core/inc/ajax.php:366
+msgid "Missing Volume ID"
+msgstr ""
+
+#: madara-core/inc/ajax.php:393 madara-core/inc/upload/google-upload.php:258
+#, php-format
+msgid "[Album] %s (having %d items)"
+msgstr ""
+
+#: madara-core/inc/ajax.php:423
+msgid "I smell some cheating here"
+msgstr ""
+
+#: madara-core/inc/ajax.php:431 madara-core/inc/ajax.php:454
+msgid "Upload failed! Please try again later"
+msgstr ""
+
+#: madara-core/inc/ajax.php:491
+msgid ""
+"This Chapter name is already existed, please choose if you want to over "
+"write or create a new one"
+msgstr ""
+
+#: madara-core/inc/ajax.php:562
+msgid "Upload failed. Please try again later"
+msgstr ""
+
+#: madara-core/inc/ajax.php:580
+msgid "Missing Chapter ID"
+msgstr ""
+
+#: madara-core/inc/ajax.php:586
+msgid "Cannot find this Chapter"
+msgstr ""
+
+#: madara-core/inc/ajax.php:610
+msgid "Cannot find Chapter Content Data"
+msgstr ""
+
+#: madara-core/inc/ajax.php:624
+msgid "Cannot find this JSON file"
+msgstr ""
+
+#: madara-core/inc/ajax.php:631
+msgid "Cannot find this Chapter in JSON file"
+msgstr ""
+
+#: madara-core/inc/ajax.php:992 madara-core/inc/ajax.php:1024
+msgid "<span>You haven't bookmark any manga yet</span>"
+msgstr ""
+
+#: madara-core/inc/ajax.php:1033
+msgid "Eh, try to cheat ahh !?"
+msgstr ""
+
+#: madara-core/inc/ajax.php:1044
+msgid "No manga found"
+msgstr ""
+
+#: madara-core/inc/ajax.php:1074 madara-core/inc/post-type.php:37
+msgid "No Manga found"
+msgstr ""
+
+#: madara-core/inc/ajax.php:1145
+msgid " doesn't have any chapter on this server."
+msgstr ""
+
+#: madara-core/inc/ajax.php:1150 madara-core/inc/ajax.php:1176
+msgid "Something wrong happened. Please try again later"
+msgstr ""
+
+#: madara-core/inc/ajax.php:1210
+msgid "Please choose zip file to upload"
+msgstr ""
+
+#: madara-core/inc/ajax.php:1213
+msgid "Something wrong happened, please try again later"
+msgstr ""
+
+#: madara-core/inc/ajax.php:1262
+msgid "<span> Nothing matches </span>"
+msgstr ""
+
+#: madara-core/inc/first-install.php:25
+msgid ""
+"<strong>WP Manga Plugin</strong> &#8211; Get started with WP Manga Plugin!"
+msgstr ""
+
+#: madara-core/inc/first-install.php:27
+msgid "Let's go!"
+msgstr ""
+
+#: madara-core/inc/first-install.php:28
+msgid "Skip this"
+msgstr ""
+
+#: madara-core/inc/first-install.php:38 madara-core/inc/first-install.php:39
+msgid "WP Manga Welcome"
+msgstr ""
+
+#: madara-core/inc/functions.php:49
+msgid "None"
+msgstr ""
+
+#: madara-core/inc/functions.php:249
+msgid "<span class=\"score font-meta total_votes\">Your Rating</span>"
+msgstr ""
+
+#: madara-core/inc/functions.php:370
+msgid "OnGoing"
+msgstr ""
+
+#: madara-core/inc/functions.php:372
+#: madara-core/templates/manga-search.php:208
+msgid "Completed"
+msgstr ""
+
+#: madara-core/inc/functions.php:763
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:58
+msgid "Delete Chapter"
+msgstr ""
+
+#: madara-core/inc/functions.php:782
+msgid "No Volume "
+msgstr ""
+
+#: madara-core/inc/functions.php:784 madara-core/inc/functions.php:816
+msgid "Delete Volume"
+msgstr ""
+
+#: madara-core/inc/functions.php:815
+msgid "Edit Volume Name"
+msgstr ""
+
+#: madara-core/inc/functions.php:829
+msgid "There is no chapter in this volume "
+msgstr ""
+
+#: madara-core/inc/functions.php:877 madara-core/inc/functions.php:1228
+msgid "No Volume"
+msgstr ""
+
+#: madara-core/inc/functions.php:1132
+msgid "Hi, "
+msgstr ""
+
+#: madara-core/inc/functions.php:1143
+msgid "User Settings"
+msgstr ""
+
+#: madara-core/inc/functions.php:1149
+msgid "Logout"
+msgstr ""
+
+#: madara-core/inc/post-type.php:25
+#: madara-core/templates/user/page/bookmark.php:19
+#: madara-core/templates/user-old/page/bookmark.php:19
+msgid "Manga Name"
+msgstr ""
+
+#: madara-core/inc/post-type.php:30
+msgid "All Manga"
+msgstr ""
+
+#: madara-core/inc/post-type.php:31
+msgid "Add New"
+msgstr ""
+
+#: madara-core/inc/post-type.php:32
+msgid "Add New Manga"
+msgstr ""
+
+#: madara-core/inc/post-type.php:33
+msgid "Edit Manga"
+msgstr ""
+
+#: madara-core/inc/post-type.php:34
+#: madara-core/inc/widgets/manga-popular-slider.php:34
+#: madara-core/inc/widgets/manga-slider.php:34
+#: madara-core/inc/widgets/recent-manga.php:213
+msgid "New Manga"
+msgstr ""
+
+#: madara-core/inc/post-type.php:35
+msgid "View Manga"
+msgstr ""
+
+#: madara-core/inc/post-type.php:36
+msgid "Search Manga"
+msgstr ""
+
+#: madara-core/inc/post-type.php:38
+msgid "No Manga found in Trash"
+msgstr ""
+
+#: madara-core/inc/post-type.php:68 madara-core/inc/post-type.php:69
+#: madara-core/inc/post-type.php:70
+msgid "Manga Tags"
+msgstr ""
+
+#: madara-core/inc/post-type.php:71
+msgid "All Manga Tags"
+msgstr ""
+
+#: madara-core/inc/post-type.php:72
+msgid "Edit Manga Tag"
+msgstr ""
+
+#: madara-core/inc/post-type.php:73
+msgid "View Manga Tag"
+msgstr ""
+
+#: madara-core/inc/post-type.php:74
+msgid "Update Manga Tag"
+msgstr ""
+
+#: madara-core/inc/post-type.php:75
+msgid "Add Manga Tag"
+msgstr ""
+
+#: madara-core/inc/post-type.php:76
+msgid "New Manga Tag"
+msgstr ""
+
+#: madara-core/inc/post-type.php:77
+msgid "Parent Manga Tag"
+msgstr ""
+
+#: madara-core/inc/post-type.php:78
+msgid "Parent Manga Tag:"
+msgstr ""
+
+#: madara-core/inc/post-type.php:79
+msgid "Search Manga Tag"
+msgstr ""
+
+#: madara-core/inc/post-type.php:94 madara-core/inc/post-type.php:95
+#: madara-core/inc/post-type.php:96
+msgid "Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:97
+msgid "All Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:98
+msgid "Edit Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:99
+msgid "View Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:100
+msgid "Update Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:101
+msgid "Add New Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:102
+msgid "New Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:103
+msgid "Parent Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:104
+msgid "Parent Manga Release Year:"
+msgstr ""
+
+#: madara-core/inc/post-type.php:105
+msgid "Search Manga Release Year"
+msgstr ""
+
+#: madara-core/inc/post-type.php:106
+msgid "Separate Release Years with commas"
+msgstr ""
+
+#: madara-core/inc/post-type.php:107
+msgid "Choose from the most used release years"
+msgstr ""
+
+#: madara-core/inc/post-type.php:122 madara-core/inc/post-type.php:124
+msgid "Manga Authors"
+msgstr ""
+
+#: madara-core/inc/post-type.php:123
+msgid "Manga Author"
+msgstr ""
+
+#: madara-core/inc/post-type.php:125
+msgid "All Manga Authors"
+msgstr ""
+
+#: madara-core/inc/post-type.php:126
+msgid "Edit Manga Author"
+msgstr ""
+
+#: madara-core/inc/post-type.php:127
+msgid "View Manga Author"
+msgstr ""
+
+#: madara-core/inc/post-type.php:128
+msgid "Update Manga Author"
+msgstr ""
+
+#: madara-core/inc/post-type.php:129
+msgid "Add New Manga Author"
+msgstr ""
+
+#: madara-core/inc/post-type.php:130
+msgid "New Manga Author Name"
+msgstr ""
+
+#: madara-core/inc/post-type.php:131
+msgid "Search Manga Author"
+msgstr ""
+
+#: madara-core/inc/post-type.php:132
+msgid "Popular Manga Author"
+msgstr ""
+
+#: madara-core/inc/post-type.php:133
+msgid "Separate authors with commas"
+msgstr ""
+
+#: madara-core/inc/post-type.php:134
+msgid "Add or remove authors"
+msgstr ""
+
+#: madara-core/inc/post-type.php:135
+msgid "Choose from the most used authors"
+msgstr ""
+
+#: madara-core/inc/post-type.php:136
+msgid "No authors found."
+msgstr ""
+
+#: madara-core/inc/post-type.php:150 madara-core/inc/post-type.php:152
+msgid "Manga Artists"
+msgstr ""
+
+#: madara-core/inc/post-type.php:151
+msgid "Manga Artist"
+msgstr ""
+
+#: madara-core/inc/post-type.php:153
+msgid "All Manga Artists"
+msgstr ""
+
+#: madara-core/inc/post-type.php:154
+msgid "Edit Manga Artist"
+msgstr ""
+
+#: madara-core/inc/post-type.php:155
+msgid "View Manga Artist"
+msgstr ""
+
+#: madara-core/inc/post-type.php:156
+msgid "Update Manga Artist"
+msgstr ""
+
+#: madara-core/inc/post-type.php:157
+msgid "Add New Manga Artist"
+msgstr ""
+
+#: madara-core/inc/post-type.php:158
+msgid "New Manga Artist Name"
+msgstr ""
+
+#: madara-core/inc/post-type.php:159
+msgid "Search Manga Artist"
+msgstr ""
+
+#: madara-core/inc/post-type.php:160
+msgid "Popular Manga Artist"
+msgstr ""
+
+#: madara-core/inc/post-type.php:161
+msgid "Separate artists with commas"
+msgstr ""
+
+#: madara-core/inc/post-type.php:162
+msgid "Add or remove Artists"
+msgstr ""
+
+#: madara-core/inc/post-type.php:163
+msgid "Choose from the most used Artists"
+msgstr ""
+
+#: madara-core/inc/post-type.php:164
+msgid "No Artists found."
+msgstr ""
+
+#: madara-core/inc/post-type.php:179 madara-core/inc/post-type.php:181
+msgid "Manga Genres"
+msgstr ""
+
+#: madara-core/inc/post-type.php:180
+msgid "Manga Genre"
+msgstr ""
+
+#: madara-core/inc/post-type.php:182
+msgid "All Manga Genres"
+msgstr ""
+
+#: madara-core/inc/post-type.php:183
+msgid "Edit Manga Genre"
+msgstr ""
+
+#: madara-core/inc/post-type.php:184
+msgid "View Manga Genre"
+msgstr ""
+
+#: madara-core/inc/post-type.php:185
+msgid "Update Manga Genre"
+msgstr ""
+
+#: madara-core/inc/post-type.php:186
+msgid "Add New Manga Genre"
+msgstr ""
+
+#: madara-core/inc/post-type.php:187
+msgid "New Manga Genre Name"
+msgstr ""
+
+#: madara-core/inc/post-type.php:188
+msgid "Parent Manga Genre"
+msgstr ""
+
+#: madara-core/inc/post-type.php:189
+msgid "Parent Manga Genre:"
+msgstr ""
+
+#: madara-core/inc/post-type.php:190
+msgid "Search Manga Genres"
+msgstr ""
+
+#: madara-core/inc/post-type.php:224
+msgid "WP Manga"
+msgstr ""
+
+#: madara-core/inc/post-type.php:229
+msgid "Manga Status"
+msgstr ""
+
+#: madara-core/inc/post-type.php:234
+msgid "Manga Views"
+msgstr ""
+
+#: madara-core/inc/post-type.php:357
+msgid "Download Manga"
+msgstr ""
+
+#: madara-core/inc/settings.php:22
+msgid "WP Manga Settings"
+msgstr ""
+
+#: madara-core/inc/settings.php:102
+msgid "MANGA DISCUSSION"
+msgstr ""
+
+#: madara-core/inc/sidebar.php:17
+msgid "WP Manga - Archives Sidebar"
+msgstr ""
+
+#: madara-core/inc/sidebar.php:18
+msgid "Appear in Manga Archives Page"
+msgstr ""
+
+#: madara-core/inc/sidebar.php:26
+msgid "WP Manga - Single Sidebar"
+msgstr ""
+
+#: madara-core/inc/sidebar.php:27
+msgid "Appear in Single Manga Page"
+msgstr ""
+
+#: madara-core/inc/sidebar.php:36
+msgid "WP Manga - Reading Page Sidebar"
+msgstr ""
+
+#: madara-core/inc/sidebar.php:37
+msgid "Appear in Manga Reading Page"
+msgstr ""
+
+#: madara-core/inc/storage.php:467
+msgid "Manga JSON file doesn't exist "
+msgstr ""
+
+#: madara-core/inc/storage.php:475
+msgid "Chapter doesn't exists"
+msgstr ""
+
+#: madara-core/inc/storage.php:479
+msgid "Chapter is already existed on this server"
+msgstr ""
+
+#: madara-core/inc/storage.php:550
+msgid "Duplicate successfully!"
+msgstr ""
+
+#: madara-core/inc/storage.php:556
+msgid "There was something wrong happened, please try again later "
+msgstr ""
+
+#: madara-core/inc/storage.php:729
+msgid "Download Content Chapter is not supported"
+msgstr ""
+
+#: madara-core/inc/storage.php:804
+msgid "Cannot create zip file"
+msgstr ""
+
+#: madara-core/inc/storage.php:818
+msgid "This Manga doesn't have any chapter"
+msgstr ""
+
+#: madara-core/inc/storage.php:826
+msgid "Not Found Manga Json"
+msgstr ""
+
+#: madara-core/inc/storage.php:833
+msgid "This Manga doesn't have any chapters"
+msgstr ""
+
+#: madara-core/inc/storage.php:841
+msgid "Cannot find Manga data"
+msgstr ""
+
+#: madara-core/inc/storage.php:990
+msgid ""
+"Oops, Imgur only allows user to upload maximum 50 images per hour, but your "
+"file contains more than 50 images. Please try another files"
+msgstr ""
+
+#: madara-core/inc/storage.php:1001
+msgid "Not found this Album"
+msgstr ""
+
+#: madara-core/inc/storage.php:1060
+#: madara-core/inc/manga-type/text-chapter.php:148
+msgid "Cannot open Zip file "
+msgstr ""
+
+#: madara-core/inc/storage.php:1123
+msgid "Access denied! Please check directory permission"
+msgstr ""
+
+#: madara-core/inc/storage.php:1198
+msgid "Upload Complete!"
+msgstr ""
+
+#: madara-core/inc/storage.php:1203
+msgid "This zip file is invalid for uploading manga"
+msgstr ""
+
+#: madara-core/inc/user-actions.php:50 madara-core/templates/login.php:19
+msgid "Sign in"
+msgstr ""
+
+#: madara-core/inc/user-actions.php:51
+msgid "Sign up"
+msgstr ""
+
+#: madara-core/inc/user-actions.php:71
+msgid "Manga Settings"
+msgstr ""
+
+#: madara-core/inc/zip-validation.php:20
+msgid "This Zip file isn't valid for this chapter type"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:26
+msgid "Storage: "
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:32
+msgid "Volume: "
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:39
+msgid "You can sort the page by draging picture"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:53
+msgid "Duplicate to : "
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:55
+msgid "Duplicate"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:57
+msgid "Save"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:61
+msgid "Download Chapter"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/chapter-edit-modal.php:64
+msgid "Close"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:30
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:71
+msgid "Manga Extra Info"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:33
+msgid "Manga Chapters List"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:39
+msgid "Chapter Upload "
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:42
+msgid "Manga Upload"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:48
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:360
+msgid "Text Chapter"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:51
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:60
+msgid "Upload Multi Chapters"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:57
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:364
+msgid "Video Chapter"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:95
+msgid "Search Chapter"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:108
+msgid "Fetching New Chapters Data"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:117
+msgid "This Manga doesn't have any chapters yet. "
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:163
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:227
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:314
+msgid "Notice: "
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:164
+msgid ""
+"Please note that <strong>only .zip file</strong> contains images (<strong>."
+"zip > Images</strong>) only is allowed to be uploaded in this field"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:172
+msgid "Do you want to overwrite chapter or create a new one?"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:174
+msgid "Overwrite old chapter"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:177
+msgid "Create new chapter"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:181
+msgid "Select Chapter to overwrite "
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:197
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:246
+msgid "Upload Manga"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:200
+msgid "Storage"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:213
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:297
+msgid "Volume"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:215
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:262
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:300
+msgid "New Volume"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:219
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:304
+msgid "Add"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:228
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:315
+msgid "Please note that <strong>only .zip file contains folders</strong> : "
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:231
+msgid ".zip > Volume folder > Chapter folder > Images"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:234
+msgid ".zip > Chapter folder > Images"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:237
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:324
+msgid "is valid to be uploaded in this field"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:310
+msgid "Multi Chapters File"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:318
+msgid ".zip > Volume folder > Chapter folder > Text file contains content"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:321
+msgid ".zip > Chapter folder > Text file contains content"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:330
+msgid "Upload File"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:348
+msgid "Chapter Type"
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:351
+msgid "This setting cannot be changed after choosen."
+msgstr ""
+
+#: madara-core/inc/admin-template/manga-single/manga-metabox.php:356
+msgid "Manga Chapter"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:24
+#: madara-core/templates/first-install/step-2.php:1
+msgid "Manga Page Settings"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:27
+msgid "Paging Style"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:31
+#: madara-core/inc/admin-template/settings/settings-page.php:44
+#: madara-core/templates/first-install/step-2.php:26
+msgid "Default"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:32
+msgid "Load More Button"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:38
+#: madara-core/templates/first-install/step-2.php:18
+msgid "Manga Archive Page"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:48
+#: madara-core/templates/first-install/step-2.php:32
+msgid "Choose page for Manga archive to show all manga."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:53
+#: madara-core/templates/first-install/step-2.php:37
+msgid "User Page"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:59
+#: madara-core/templates/first-install/step-2.php:44
+msgid "Select User Page"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:63
+#: madara-core/templates/first-install/step-2.php:50
+msgid ""
+"A page display user's bookmark, history and settings. The <code>[manga-user-"
+"page]</code> short code must be on this page."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:68
+msgid "Single Manga Settings"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:71
+msgid "Hosting Selection"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:76
+msgid "Show Hosting Selection for Manga"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:79
+msgid ""
+"Uncheck to hide Hosting Selection. Hosting Selection should be hide if you "
+"only use one hosting for your Manga"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:84
+msgid "Manga Comment"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:89
+msgid "Enable Comment for manga"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:95
+msgid "Related Manga"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:100
+msgid "Enable Related Manga"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:106
+msgid "Related by"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:110
+#: madara-core/inc/widgets/manga-popular-slider.php:80
+#: madara-core/inc/widgets/manga-slider.php:80
+#: madara-core/inc/widgets/recent-manga.php:250
+#: madara-core/templates/manga-search.php:190
+msgid "Author"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:111
+#: madara-core/inc/widgets/manga-popular-slider.php:92
+#: madara-core/inc/widgets/manga-slider.php:92
+#: madara-core/inc/widgets/recent-manga.php:262
+msgid "Release Year"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:112
+#: madara-core/templates/content/content-search.php:89
+msgid "Artists"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:113
+#: madara-core/templates/content/content-search.php:113
+msgid "Genres"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:119
+msgid "SEO"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:124
+msgid "Add website name to meta title tag & meta keywords tag"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:130
+#: madara-core/templates/first-install/step-3.php:1
+msgid "Manga Post Type Settings"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:134
+msgid "Manga Single Slug"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:140
+msgid "Change slug for Single Manga, default slug is <strong> manga </strong>."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:146
+msgid "Manga Post Type Archive Slug"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:152
+msgid ""
+"Change slug for Post Type Archive Manga Page, default slug is <strong> manga "
+"</strong>."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:158
+msgid "Manga Default Storage"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:173
+msgid "Change default storage to upload Manga"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:178
+msgid "Manga General Settings"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:182
+msgid "Loading Bootstrap"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:188
+msgid "Option to turn off loading Bootstrap"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:190
+msgid ""
+"Turn off loading Bootstrap might break Manga pages layout. However, in some "
+"cases, your theme already has Bootstrap, then you can switch this off to "
+"avoid conflicts."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:192
+msgid ""
+"By default, plugin would check if your theme already has Bootstrap and turn "
+"off this."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:199
+msgid "Loading Slick"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:205
+msgid "Option to turn off loading slick"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:212
+msgid "Loading FontAwesome"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:218
+msgid "Option to turn off loading FontAwesome"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:225
+msgid "Loading IonIcons"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:231
+msgid "Option to turn off loading IonIcons"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:238
+msgid "Admin Bar"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:244
+msgid "Hide Admin Bar for Administrator"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-page.php:247
+msgid ""
+"By default, Admin Bar would be hidden for all user roles but Administrator. "
+"This option will let you hide Admin Bar for Administrator role."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:23
+msgid "Blogspot Settings"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:24
+msgid ""
+" - You can start using this upload feature when you see the Authorizing "
+"success display."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:25
+msgid " - Allow to upload only Image file type at this time."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:28
+msgid "* For Blogspot Api register :"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:30
+msgid ""
+" - You need to create a Oauth Client ID Credential and when setting, "
+"remember to put the redirect Url to your website. "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:35
+#: madara-core/inc/admin-template/settings/settings-storage.php:149
+msgid "Client ID"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:41
+msgid "You can register the client ID at"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:43
+msgid "developers.google.com"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:50
+#: madara-core/inc/admin-template/settings/settings-storage.php:170
+msgid "Client Secret"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:56
+msgid ""
+"You will need Client Secret to Authorize and Upload to blogspot function"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:62
+msgid "Redirect URL"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:68
+msgid ""
+"Redirect URL need to match Credential's redirect URL when creating API "
+"Credential "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:75
+msgid "Refresh Token"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:81
+msgid ""
+"Google Refresh Token only being provided at the first time Authorizing the "
+"App, so you should remember or save the token to use the client ID again."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:84
+msgid ""
+"Also if you have saved the Refresh Token along with Client ID and Secret, "
+"you can just fill all the details and don't need to authorize again. "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:87
+msgid "This will be auto generate when Authorize Process success."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:100
+#: madara-core/inc/admin-template/settings/settings-storage.php:183
+#: madara-core/inc/admin-template/settings/settings-storage.php:291
+msgid "Authorize"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:109
+#: madara-core/inc/admin-template/settings/settings-storage.php:192
+#: madara-core/inc/admin-template/settings/settings-storage.php:297
+msgid "Authorizing Success"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:114
+msgid "Authorizing Failed. "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:128
+msgid "Replace Blogspot URL"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:136
+msgid ""
+"From Madara version 1.3, Madara-Core plugin use Blogspot URL for images "
+"instead of Picasa URL as before. This button would help you to replace all "
+"images Picasa URL with Blogspot URL."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:143
+msgid "Imgur Settings"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:144
+msgid " - API setting for storage in Imgur.com"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:155
+msgid "You can register the client ID at "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:157
+msgid "Imgur.com"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:161
+msgid ""
+"Note that you need to create a credential with callback to your website, "
+"also the the Redirect URL should be your website "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:176
+msgid "You will need Client Secret to Authorize and Upload to imgur function"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:203
+msgid "Amazon S3 settings"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:204
+msgid ""
+" - If your upload not success, please check your region when create account "
+"need to be same as your bucket region."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:205
+msgid " - Allow to upload all files."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:208
+msgid "* For Amazon S3 set up :"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:209
+msgid " - You need to login to your account at "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:211
+#: madara-core/inc/admin-template/settings/settings-storage.php:228
+msgid "https://console.aws.amazon.com/"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:215
+msgid ""
+" - First thing to do is create an user to have the Access key ID and Secret "
+"access key ( register with Access Type of Programmatic access then push them "
+"to a group that have permission: \"AmazonS3FullAcess\" to get the keys ) at "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:217
+msgid "https://console.aws.amazon.com/iam"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:219
+msgid ". Then provide the user the permission to read and write."
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:222
+msgid " - After having the Key and Secret, note it and get to "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:224
+msgid "https://console.aws.amazon.com/s3/"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:226
+msgid ""
+". ( *Note : you need to create the bucket in the same region as your account "
+"when register the account at "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:230
+msgid ""
+"And Also provide the permission for Any Authenticated AWS User can read and "
+"write "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:233
+msgid ""
+" - Then go back to your website >> dashboard >> Settings >> WP Cloud Media "
+"Settings >> Input your Key ID and Secret and also the Region of your account "
+"and your Bucket then save changes and you can start to upload. "
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:238
+msgid "Access key ID"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:244
+msgid "You can create the key ID at"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:246
+msgid "console.aws.amazon.com/iam"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:253
+msgid "Secret access key"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:263
+msgid "Region"
+msgstr ""
+
+#: madara-core/inc/admin-template/settings/settings-storage.php:278
+msgid "Bucket"
+msgstr ""
+
+#: madara-core/inc/login/login.php:72
+msgid "Registration successfully! You can login now."
+msgstr ""
+
+#: madara-core/inc/login/login.php:75
+msgid "There was an error when registration"
+msgstr ""
+
+#: madara-core/inc/login/login.php:85
+msgid "Username or email address cannot be empty"
+msgstr ""
+
+#: madara-core/inc/login/login.php:97
+msgid "There is no user registered with that email address or username."
+msgstr ""
+
+#: madara-core/inc/login/login.php:103
+msgid "Reset your password on "
+msgstr ""
+
+#: madara-core/inc/login/login.php:105
+msgid "Your new password is "
+msgstr ""
+
+#: madara-core/inc/login/login.php:110
+msgid "Cannot send email"
+msgstr ""
+
+#: madara-core/inc/login/login.php:114
+msgid "Please check your email address for you new password"
+msgstr ""
+
+#: madara-core/inc/login/login.php:118
+msgid "Oops, something went wrong when resetiing your password."
+msgstr ""
+
+#: madara-core/inc/manga-type/manga-chapter.php:63
+msgid "Host: "
+msgstr ""
+
+#: madara-core/inc/manga-type/manga-chapter.php:126
+msgid "Select Chapter"
+msgstr ""
+
+#: madara-core/inc/manga-type/manga-chapter.php:153
+msgid "List style"
+msgstr ""
+
+#: madara-core/inc/manga-type/manga-chapter.php:154
+msgid "Paged style"
+msgstr ""
+
+#: madara-core/inc/manga-type/manga-chapter.php:188
+#: madara-core/inc/manga-type/manga-chapter.php:325
+msgid "Prev"
+msgstr ""
+
+#: madara-core/inc/manga-type/manga-chapter.php:193
+#: madara-core/inc/manga-type/manga-chapter.php:332
+#: madara-core/inc/manga-type/text-chapter.php:67
+#: madara-core/templates/first-install/step-0.php:14
+#: madara-core/templates/first-install/step-1.php:154
+#: madara-core/templates/first-install/step-2.php:58
+#: madara-core/templates/first-install/step-3.php:36
+#: madara-core/templates/first-install/step-4.php:19
+msgid "Next"
+msgstr ""
+
+#: madara-core/inc/manga-type/text-chapter.php:119
+msgid "Cannot insert Chapter"
+msgstr ""
+
+#: madara-core/inc/manga-type/text-chapter.php:239
+msgid "Upload failed"
+msgstr ""
+
+#: madara-core/inc/manga-type/text-chapter.php:245
+msgid "Upload successfully"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:12
+msgid "Show Manga Genres"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:15
+msgid "WP Manga: Manga Genres"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:117
+msgid "Title: "
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:123
+msgid "Exclude Genres: "
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:125
+msgid "Use WP Manga Genres ID or slug, separated by comma"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:130
+msgid "Layout: "
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:133
+msgid "Layout 1 - 2 columns"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:136
+msgid "Layout 2 - 6 columns"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-genres.php:144
+msgid "Show manga counts"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:10
+#: madara-core/inc/widgets/manga-slider.php:10
+msgid "Display recent manga as slider"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:12
+msgid "WP Manga: Manga Popular Slider"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:29
+#: madara-core/inc/widgets/manga-slider.php:29
+#: madara-core/inc/widgets/recent-manga.php:208
+#: madara-core/templates/manga-archive-filter.php:14
+msgid "Latest"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:30
+#: madara-core/inc/widgets/manga-slider.php:30
+#: madara-core/inc/widgets/recent-manga.php:209
+msgid "Alphabet"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:31
+#: madara-core/inc/widgets/manga-slider.php:31
+#: madara-core/inc/widgets/recent-manga.php:210
+msgid "Ratings"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:32
+#: madara-core/inc/widgets/manga-slider.php:32
+#: madara-core/inc/widgets/recent-manga.php:211
+#: madara-core/templates/manga-archive-filter.php:29
+msgid "Trending"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:33
+#: madara-core/inc/widgets/manga-slider.php:33
+#: madara-core/inc/widgets/recent-manga.php:212
+msgid "Views"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:35
+#: madara-core/inc/widgets/manga-slider.php:35
+msgid "Random"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:39
+#: madara-core/inc/widgets/manga-slider.php:39
+#: madara-core/inc/widgets/recent-manga.php:220
+msgid "DESC"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:40
+#: madara-core/inc/widgets/manga-slider.php:40
+#: madara-core/inc/widgets/recent-manga.php:221
+msgid "ASC"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:46
+#: madara-core/inc/widgets/manga-search.php:57
+#: madara-core/inc/widgets/manga-slider.php:46
+#: madara-core/inc/widgets/recent-manga.php:232
+msgid "Title"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:52
+msgid "Number of posts to query"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:63
+#: madara-core/inc/widgets/manga-slider.php:63
+msgid "Number of Post to show"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:67
+msgid "4"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:68
+msgid "6"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:69
+#: madara-core/inc/widgets/manga-slider.php:69
+msgid "1"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:74
+#: madara-core/inc/widgets/manga-slider.php:74
+#: madara-core/inc/widgets/recent-manga.php:244
+msgid "Genre"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:86
+#: madara-core/inc/widgets/manga-slider.php:86
+#: madara-core/inc/widgets/recent-manga.php:256
+#: madara-core/templates/manga-search.php:195
+msgid "Artist"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:98
+#: madara-core/inc/widgets/manga-slider.php:98
+#: madara-core/inc/widgets/recent-manga.php:268
+#: madara-core/templates/manga-archive-filter.php:10
+msgid "Order by"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:112
+msgid "Order"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:130
+#: madara-core/inc/widgets/manga-slider.php:131
+#: madara-core/inc/widgets/recent-manga.php:310
+msgid "Style"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:134
+#: madara-core/inc/widgets/manga-slider.php:135
+#: madara-core/inc/widgets/manga-taxonomy.php:81
+#: madara-core/inc/widgets/recent-manga.php:313
+msgid "Style 1"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-popular-slider.php:135
+#: madara-core/inc/widgets/manga-slider.php:136
+#: madara-core/inc/widgets/manga-taxonomy.php:82
+#: madara-core/inc/widgets/recent-manga.php:314
+msgid "Style 2"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-release.php:9
+msgid "Show Manga Release Years"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-release.php:12
+msgid "WP Manga : Manga Release Years"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-release.php:109
+#: madara-core/inc/widgets/manga-taxonomy.php:60
+#: madara-core/inc/widgets/manga-user-section.php:24
+msgid "Title:"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-release.php:115
+msgid "Exclude Years:"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-release.php:117
+msgid "Use Release Years Term ID or slug, separated by comma"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-release.php:122
+msgid "Number of years"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-release.php:124
+msgid "Fill-in 0 to list all Release Years"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-release.php:130
+msgid "Enable Go Release"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-search.php:8
+msgid "Manga Search"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-search.php:9
+msgid "WP Manga: Manga Search"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-search.php:61
+msgid "Search Advance Text : "
+msgstr ""
+
+#: madara-core/inc/widgets/manga-search.php:63
+msgid "Change Advanced Text, leave empty to remove Advanced Text."
+msgstr ""
+
+#: madara-core/inc/widgets/manga-slider.php:12
+msgid "WP Manga: Manga Hero Slider"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-slider.php:52
+#: madara-core/inc/widgets/recent-manga.php:238
+msgid "Number of posts"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-slider.php:67
+msgid "2"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-slider.php:68
+msgid "3"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-slider.php:112
+#: madara-core/inc/widgets/recent-manga.php:296
+msgid "Order By"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-slider.php:137
+msgid "Style 3"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-taxonomy.php:8
+msgid "Display Manga Taxonomy"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-taxonomy.php:9
+msgid "WP Manga: Manga Taxonomy"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-taxonomy.php:64
+msgid "Taxonomy:"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-taxonomy.php:79
+msgid "Style:"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-user-section.php:10
+msgid "Show Login or Current Manga User"
+msgstr ""
+
+#: madara-core/inc/widgets/manga-user-section.php:13
+msgid "WP Manga : User section"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:10
+msgid "Display Manga Posts"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:12
+msgid "WP Manga: Manga Posts"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:283
+msgid "Time Range"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:286
+msgid "All Time"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:287
+msgid "1 day"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:288
+msgid "1 week"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:289
+msgid "1 month"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:290
+msgid "1 year"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:292
+msgid "Affected when order by is trending"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:319
+msgid "ReadMore Button"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:322
+msgid "Readmore button text. Leave blank to disable this button"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:326
+msgid "ReadMore button URL"
+msgstr ""
+
+#: madara-core/inc/widgets/recent-manga.php:329
+msgid "Readmore button URL"
+msgstr ""
+
+#: madara-core/templates/login.php:25
+msgid "Username or Email Address *"
+msgstr ""
+
+#: madara-core/templates/login.php:31 madara-core/templates/login.php:89
+msgid "Password *"
+msgstr ""
+
+#: madara-core/templates/login.php:38
+msgid "Remember Me "
+msgstr ""
+
+#: madara-core/templates/login.php:42
+msgid "Log In"
+msgstr ""
+
+#: madara-core/templates/login.php:49 madara-core/templates/login.php:103
+#: madara-core/templates/login.php:125
+msgid "Lost your password?"
+msgstr ""
+
+#: madara-core/templates/login.php:52 madara-core/templates/login.php:106
+msgid "&larr; Back to "
+msgstr ""
+
+#: madara-core/templates/login.php:71
+msgid "Sign Up"
+msgstr ""
+
+#: madara-core/templates/login.php:73
+msgid "Register For This Site."
+msgstr ""
+
+#: madara-core/templates/login.php:77
+msgid "Username *"
+msgstr ""
+
+#: madara-core/templates/login.php:83
+msgid "Email Address *"
+msgstr ""
+
+#: madara-core/templates/login.php:96
+msgid "Register"
+msgstr ""
+
+#: madara-core/templates/login.php:101
+msgid "Log in"
+msgstr ""
+
+#: madara-core/templates/login.php:127
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: madara-core/templates/login.php:130
+msgid "Username or Email Address"
+msgstr ""
+
+#: madara-core/templates/login.php:136
+msgid "Get New Password"
+msgstr ""
+
+#: madara-core/templates/login.php:141
+msgid "&larr; Back to  "
+msgstr ""
+
+#: madara-core/templates/manga-archive-filter.php:19
+msgid "A-Z"
+msgstr ""
+
+#: madara-core/templates/manga-archive-filter.php:24
+msgid "Rating"
+msgstr ""
+
+#: madara-core/templates/manga-archive-filter.php:34
+msgid "Most Views"
+msgstr ""
+
+#: madara-core/templates/manga-archive-filter.php:39
+msgid "New"
+msgstr ""
+
+#: madara-core/templates/manga-breadcrumb.php:19
+msgid "Home"
+msgstr ""
+
+#: madara-core/templates/manga-related.php:107
+msgid "YOU MAY ALSO LIKE"
+msgstr ""
+
+#: madara-core/templates/manga-search.php:143
+#: madara-core/templates/widgets/manga-search/manga-search.php:7
+msgid "Search for:"
+msgstr ""
+
+#: madara-core/templates/manga-search.php:144
+msgid "Search..."
+msgstr ""
+
+#: madara-core/templates/manga-search.php:155
+#: madara-core/templates/manga-search.php:216
+#: madara-core/templates/widgets/manga-search/manga-search.php:11
+msgid "Search"
+msgstr ""
+
+#: madara-core/templates/manga-search.php:157
+#: madara-core/templates/widgets/manga-search/manga-search.php:13
+msgid "Advanced"
+msgstr ""
+
+#: madara-core/templates/manga-search.php:200
+msgid "Year of Released"
+msgstr ""
+
+#: madara-core/templates/manga-search.php:205
+#: madara-core/templates/content/content-search.php:136
+#: madara-core/templates/first-install/step-1.php:42
+msgid "Status"
+msgstr ""
+
+#: madara-core/templates/manga-search.php:212
+msgid "Ongoing"
+msgstr ""
+
+#: madara-core/templates/manga-search.php:217
+msgid "Reset"
+msgstr ""
+
+#: madara-core/templates/manga-single.php:290
+msgid "Show more "
+msgstr ""
+
+#: madara-core/templates/content/content-none.php:11
+#, php-format
+msgid "There is no Manga in this %s - %s"
+msgstr ""
+
+#: madara-core/templates/content/content-none.php:13
+msgid "There is no Manga yet"
+msgstr ""
+
+#: madara-core/templates/content/content-none.php:15
+msgid "No matches found. Try a different search..."
+msgstr ""
+
+#: madara-core/templates/content/content-search.php:46
+msgid "Alternative"
+msgstr ""
+
+#: madara-core/templates/content/content-search.php:64
+msgid "Authors"
+msgstr ""
+
+#: madara-core/templates/content/content-search.php:152
+msgid "Release"
+msgstr ""
+
+#: madara-core/templates/content/content-search.php:181
+msgid "Latest post"
+msgstr ""
+
+#: madara-core/templates/first-install/first-install-html.php:13
+msgid "WP Manga &rsaquo; Welcome"
+msgstr ""
+
+#: madara-core/templates/first-install/step-0.php:1
+msgid "Welcome to WP Manga plugin!"
+msgstr ""
+
+#: madara-core/templates/first-install/step-0.php:4
+msgid ""
+"Thanks for choosing WP Manga plugin - the best solution to build your manga "
+"website!"
+msgstr ""
+
+#: madara-core/templates/first-install/step-0.php:7
+msgid ""
+"By taking a few minutes, you can learn more about WP Manga settings and "
+"usages to get started with WP Manga."
+msgstr ""
+
+#: madara-core/templates/first-install/step-0.php:10
+msgid ""
+"Please feel free to exit if you don't have time right now or want to skip "
+"this instruction. "
+msgstr ""
+
+#: madara-core/templates/first-install/step-0.php:13
+#: madara-core/templates/first-install/step-1.php:153
+#: madara-core/templates/first-install/step-2.php:57
+#: madara-core/templates/first-install/step-3.php:35
+#: madara-core/templates/first-install/step-4.php:18
+#: madara-core/templates/first-install/step-5.php:9
+msgid "Maybe later"
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:1
+msgid "Before Getting Started with WP Manga Plugin"
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:4
+msgid ""
+"Since WP Manga Plugin is a plugin to upload and manage Manga, so there are a "
+"fews requirements and recommendations on your server settings to make it "
+"works properly. "
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:8
+msgid ""
+"These are settings you need to notice and the number in right side is the "
+"current config in your server."
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:12
+msgid ""
+"Please make sure your file size does not exceed the configurations below, "
+"and change it to fit your needs. "
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:33
+msgid "Settings"
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:36
+msgid "Require/Recommend"
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:39
+msgid "Your Current Settings"
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:142
+msgid "high"
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:145
+msgid "medium"
+msgstr ""
+
+#: madara-core/templates/first-install/step-1.php:148
+msgid "low"
+msgstr ""
+
+#: madara-core/templates/first-install/step-2.php:4
+msgid ""
+" By default, WP Manga plugin would generate Manga Archive Page and User Page "
+"automatically. However, you can be able to set a Single Page to be Manga "
+"Archive Page and User Page. "
+msgstr ""
+
+#: madara-core/templates/first-install/step-2.php:12
+#: madara-core/templates/first-install/step-3.php:14
+msgid " If you want to skip this setting, then you can get it back in "
+msgstr ""
+
+#: madara-core/templates/first-install/step-2.php:13
+msgid "Manga > WP Manga settings"
+msgstr ""
+
+#: madara-core/templates/first-install/step-3.php:4
+msgid ""
+"The default slug for Manga Post type is <code>manga</code>, but you can "
+"change the slug of Manga Post Type to different slug. "
+msgstr ""
+
+#: madara-core/templates/first-install/step-3.php:19
+msgid "Manga Slug"
+msgstr ""
+
+#: madara-core/templates/first-install/step-3.php:28
+msgid ""
+"Change slug for Manga, default slug is <code>manga</code>. Manga slug will "
+"be used for Manga Single and Manga Archive page."
+msgstr ""
+
+#: madara-core/templates/first-install/step-4.php:1
+msgid "Configure WP Manga Storage"
+msgstr ""
+
+#: madara-core/templates/first-install/step-4.php:4
+msgid ""
+"Beside Local storage, WP Manga integrate 3 popular storage services to store "
+"Manga data for your website. Includes <strong>Blogspot (Google Photos), "
+"Imgur Settings, Amazon S3 services.</strong>."
+msgstr ""
+
+#: madara-core/templates/first-install/step-4.php:14
+msgid "You will find the settings for this in "
+msgstr ""
+
+#: madara-core/templates/first-install/step-5.php:1
+msgid "Thanks for staying tuned! "
+msgstr ""
+
+#: madara-core/templates/first-install/step-5.php:3
+msgid "That's all! You can start to create and upload Manga right now!"
+msgstr ""
+
+#: madara-core/templates/first-install/step-5.php:6
+msgid "Please go to our Document for further instructions and tutorials."
+msgstr ""
+
+#: madara-core/templates/first-install/step-5.php:10
+msgid "Back to Dashboard"
+msgstr ""
+
+#: madara-core/templates/user/settings.php:18
+msgid "Bookmarks"
+msgstr ""
+
+#: madara-core/templates/user/settings.php:21
+msgid "Reader Settings"
+msgstr ""
+
+#: madara-core/templates/user/page/bookmark.php:20
+#: madara-core/templates/user-old/page/bookmark.php:20
+msgid "Time"
+msgstr ""
+
+#: madara-core/templates/user/page/bookmark.php:21
+#: madara-core/templates/user-old/page/bookmark.php:21
+msgid "Edit"
+msgstr ""
+
+#: madara-core/templates/user/page/bookmark.php:76
+msgid "page "
+msgstr ""
+
+#: madara-core/templates/user/page/bookmark.php:116
+msgid "Check all"
+msgstr ""
+
+#: madara-core/templates/user/page/bookmark.php:118
+msgid "Delete"
+msgstr ""
+
+#: madara-core/templates/user/page/bookmark.php:125
+msgid "No Manga Bookmarked"
+msgstr ""
+
+#: madara-core/templates/user/page/reader-settings.php:21
+msgid "Success!"
+msgstr ""
+
+#: madara-core/templates/user/page/reader-settings.php:21
+msgid " Update successfully"
+msgstr ""
+
+#: madara-core/templates/user/page/reader-settings.php:28
+msgid "Reading Settings"
+msgstr ""
+
+#: madara-core/templates/user/page/reader-settings.php:32
+msgid "Reading Style"
+msgstr ""
+
+#: madara-core/templates/user/page/reader-settings.php:36
+msgid "Paged"
+msgstr ""
+
+#: madara-core/templates/user/page/reader-settings.php:40
+msgid "List"
+msgstr ""
+
+#: madara-core/templates/user/page/reader-settings.php:44
+msgid "Submit"
+msgstr ""
+
+#: madara-core/templates/widgets/manga-search/manga-search.php:8
+msgid "Search ..."
+msgstr ""

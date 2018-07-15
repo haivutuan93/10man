@@ -1,0 +1,26 @@
+@media(min-width:1280px){
+	.col-extend,
+	[data-element_type="c_column"],
+	[data-element_type="c_iconbox_item"] 	{ 	display:block; float:left; 	}
+	.col-extend.col-extend-md-1 			{ 	width:8.33333333%			}
+	.col-extend.col-extend-md-2 			{ 	width:16.66666667%			}
+	.col-extend.col-extend-md-3 			{ 	width:25%					}
+	.col-extend.col-extend-md-4 			{ 	width:33.33333333%			}
+	.col-extend.col-extend-md-5 			{ 	width:41.66666667%			}
+	.col-extend.col-extend-md-6 			{ 	width:50%					}
+	.col-extend.col-extend-md-7 			{ 	width:58.33333333%			}
+	.col-extend.col-extend-md-8 			{ 	width:66.66666667%			}
+	.col-extend.col-extend-md-9 			{ 	width:75%					}
+	.col-extend.col-extend-md-10 			{ 	width:83.33333333%			}
+	.col-extend.col-extend-md-11 			{ 	width:91.66666667%			}
+	.col-extend.col-extend-md-12 			{ 	width:100%					}
+	
+	.col-extend.col-extend-20percent 		{ 	width:20%;					}   /*5 columns*/ 
+	.col-extend.col-extend-14percent 		{ 	width:14.28%;				}	/*7 columns*/
+	.col-extend.col-extend-12percent 		{ 	width:12.5%;				}	/*8 columns*/
+	.col-extend.col-extend-11percent 		{ 	width:11.1%;				}	/*9 columns*/
+	.col-extend.col-extend-10percent 		{	 width:10%;					}	/*10 columns*/
+	.col-extend.col-extend-09percent 		{ 	width:9.09%;				}	/*11 columns*/
+	
+	[data-element_type="c_partner"] { float:left; width:25%;}
+}

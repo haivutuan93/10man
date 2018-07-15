@@ -1,0 +1,1373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MangaStream Shortcodes\n"
+"POT-Creation-Date: 2017-04-18 14:33+0700\n"
+"PO-Revision-Date: 2017-04-18 14:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: Madara <hi@madara.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/classes/ct-shortcodes.php:593
+msgid "View all posts in "
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:609
+msgid "By"
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:631
+msgid "Thumb 110x110px"
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:631 inc/classes/ct-shortcodes.php:632
+#: inc/classes/ct-shortcodes.php:633 inc/classes/ct-shortcodes.php:634
+#: inc/classes/ct-shortcodes.php:635 inc/classes/ct-shortcodes.php:636
+#: inc/classes/ct-shortcodes.php:637 inc/classes/ct-shortcodes.php:638
+msgid "This thumb size is used for: ..."
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:632
+msgid "Thumb 180x180px"
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:633
+msgid "Thumb 300x169px"
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:634
+msgid "Thumb 270x152px"
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:635
+msgid "Thumb 345x195px"
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:636
+msgid "Thumb 370x231px"
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:637
+msgid "Thumb 870x490px"
+msgstr ""
+
+#: inc/classes/ct-shortcodes.php:638
+msgid "Thumb 585x570px"
+msgstr ""
+
+#: shortcodes/block.php:48 shortcodes/typo.php:202
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/block.php:49 shortcodes/typo.php:203
+msgid ""
+"This shortcode is used to create a block to contain other non-block elements."
+msgstr ""
+
+#: shortcodes/block.php:52 shortcodes/typo.php:206
+#: shortcodes/welcome-block.php:249 shortcodes/welcome-block.php:260
+msgid "Align Left"
+msgstr ""
+
+#: shortcodes/block.php:53 shortcodes/typo.php:207
+#: shortcodes/welcome-block.php:250 shortcodes/welcome-block.php:261
+msgid "Align Right"
+msgstr ""
+
+#: shortcodes/block.php:54 shortcodes/typo.php:208
+#: shortcodes/welcome-block.php:251
+msgid "Align Center"
+msgstr ""
+
+#: shortcodes/block.php:60
+msgid "BuildMag Block"
+msgstr ""
+
+#: shortcodes/block.php:64 shortcodes/blog.php:564 shortcodes/button.php:213
+#: shortcodes/compare-table.php:279 shortcodes/contact.php:182
+#: shortcodes/download.php:267 shortcodes/icon-box.php:355
+#: shortcodes/image-columns.php:213 shortcodes/people.php:298
+#: shortcodes/portfolio.php:619 shortcodes/progress.php:230
+#: shortcodes/separator.php:60 shortcodes/testimonials.php:259
+#: shortcodes/typo.php:247 shortcodes/welcome-block-2.php:245
+#: shortcodes/welcome-block.php:322
+msgid "BuildMag Shortcodes"
+msgstr ""
+
+#: shortcodes/blog.php:184 shortcodes/blog.php:283 shortcodes/blog.php:285
+msgid "Read More"
+msgstr ""
+
+#: shortcodes/blog.php:397
+msgid "Number of posts to show"
+msgstr ""
+
+#: shortcodes/blog.php:398
+msgid "Default value is 4"
+msgstr ""
+
+#: shortcodes/blog.php:407 shortcodes/portfolio.php:495
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/blog.php:410 shortcodes/portfolio.php:498
+msgid "Layout 1"
+msgstr ""
+
+#: shortcodes/blog.php:411 shortcodes/portfolio.php:499
+msgid "Layout 2"
+msgstr ""
+
+#: shortcodes/blog.php:412 shortcodes/portfolio.php:500
+msgid "Layout 3"
+msgstr ""
+
+#: shortcodes/blog.php:413 shortcodes/portfolio.php:501
+msgid "Layout 4"
+msgstr ""
+
+#: shortcodes/blog.php:414 shortcodes/portfolio.php:502
+msgid "Layout 5"
+msgstr ""
+
+#: shortcodes/blog.php:415 shortcodes/portfolio.php:503
+msgid "Layout 6"
+msgstr ""
+
+#: shortcodes/blog.php:416 shortcodes/portfolio.php:504
+msgid "Layout 7"
+msgstr ""
+
+#: shortcodes/blog.php:417 shortcodes/portfolio.php:505
+msgid "Layout 8"
+msgstr ""
+
+#: shortcodes/blog.php:418
+msgid "Layout 9"
+msgstr ""
+
+#: shortcodes/blog.php:419
+msgid "Layout 10"
+msgstr ""
+
+#: shortcodes/blog.php:425
+msgid "Items per row"
+msgstr ""
+
+#: shortcodes/blog.php:428
+msgid "2 Items"
+msgstr ""
+
+#: shortcodes/blog.php:429
+msgid "3 Items"
+msgstr ""
+
+#: shortcodes/blog.php:431
+msgid "For layout 4 only"
+msgstr ""
+
+#: shortcodes/blog.php:439
+msgid "Category"
+msgstr ""
+
+#: shortcodes/blog.php:442
+msgid "List of cat ID (or slug), separated by a comma"
+msgstr ""
+
+#: shortcodes/blog.php:446
+msgid "Tags"
+msgstr ""
+
+#: shortcodes/blog.php:449
+msgid "list of tags, separated by a comma"
+msgstr ""
+
+#: shortcodes/blog.php:453 shortcodes/portfolio.php:519
+msgid "IDs"
+msgstr ""
+
+#: shortcodes/blog.php:456
+msgid "Specify post IDs to retrieve"
+msgstr ""
+
+#: shortcodes/blog.php:462
+msgid "Order"
+msgstr ""
+
+#: shortcodes/blog.php:465
+msgid "DESC"
+msgstr ""
+
+#: shortcodes/blog.php:466
+msgid "ASC"
+msgstr ""
+
+#: shortcodes/blog.php:474
+msgid "Order by"
+msgstr ""
+
+#: shortcodes/blog.php:477
+msgid "Date"
+msgstr ""
+
+#: shortcodes/blog.php:478 shortcodes/compare-table.php:205
+msgid "ID"
+msgstr ""
+
+#: shortcodes/blog.php:479
+msgid "Author"
+msgstr ""
+
+#: shortcodes/blog.php:480 shortcodes/compare-table.php:221
+#: shortcodes/contact.php:147 shortcodes/icon-box.php:321
+#: shortcodes/image-columns.php:186 shortcodes/people.php:283
+#: shortcodes/progress.php:206 shortcodes/testimonials.php:239
+msgid "Title"
+msgstr ""
+
+#: shortcodes/blog.php:481 shortcodes/contact.php:139 shortcodes/people.php:275
+#: shortcodes/testimonials.php:231
+msgid "Name"
+msgstr ""
+
+#: shortcodes/blog.php:482
+msgid "Modified"
+msgstr ""
+
+#: shortcodes/blog.php:483
+msgid "Parent"
+msgstr ""
+
+#: shortcodes/blog.php:484
+msgid "Random"
+msgstr ""
+
+#: shortcodes/blog.php:485
+msgid "Comment count"
+msgstr ""
+
+#: shortcodes/blog.php:486
+msgid "Menu order"
+msgstr ""
+
+#: shortcodes/blog.php:487
+msgid "Meta value"
+msgstr ""
+
+#: shortcodes/blog.php:488
+msgid "Meta value num"
+msgstr ""
+
+#: shortcodes/blog.php:489
+msgid "Post__in"
+msgstr ""
+
+#: shortcodes/blog.php:490 shortcodes/blog.php:508 shortcodes/portfolio.php:564
+#: shortcodes/welcome-block-2.php:191 shortcodes/welcome-block.php:271
+msgid "None"
+msgstr ""
+
+#: shortcodes/blog.php:496
+msgid "Meta key"
+msgstr ""
+
+#: shortcodes/blog.php:499
+msgid "Name of meta key for ordering"
+msgstr ""
+
+#: shortcodes/blog.php:505 shortcodes/portfolio.php:561
+#: shortcodes/welcome-block-2.php:188 shortcodes/welcome-block.php:268
+msgid "AOS effect"
+msgstr ""
+
+#: shortcodes/blog.php:509 shortcodes/portfolio.php:565
+#: shortcodes/welcome-block-2.php:192 shortcodes/welcome-block.php:272
+msgid "fade"
+msgstr ""
+
+#: shortcodes/blog.php:510 shortcodes/portfolio.php:566
+#: shortcodes/welcome-block-2.php:193 shortcodes/welcome-block.php:273
+msgid "fade-up"
+msgstr ""
+
+#: shortcodes/blog.php:511 shortcodes/portfolio.php:567
+#: shortcodes/welcome-block-2.php:194 shortcodes/welcome-block.php:274
+msgid "fade-down"
+msgstr ""
+
+#: shortcodes/blog.php:512 shortcodes/portfolio.php:568
+#: shortcodes/welcome-block-2.php:195 shortcodes/welcome-block.php:275
+msgid "fade-left"
+msgstr ""
+
+#: shortcodes/blog.php:513 shortcodes/portfolio.php:569
+#: shortcodes/welcome-block-2.php:196 shortcodes/welcome-block.php:276
+msgid "fade-right"
+msgstr ""
+
+#: shortcodes/blog.php:514 shortcodes/portfolio.php:570
+#: shortcodes/welcome-block-2.php:197 shortcodes/welcome-block.php:277
+msgid "fade-up-right"
+msgstr ""
+
+#: shortcodes/blog.php:515 shortcodes/portfolio.php:571
+#: shortcodes/welcome-block-2.php:198 shortcodes/welcome-block.php:278
+msgid "fade-up-left"
+msgstr ""
+
+#: shortcodes/blog.php:516 shortcodes/portfolio.php:572
+#: shortcodes/welcome-block-2.php:199 shortcodes/welcome-block.php:279
+msgid "fade-down-right"
+msgstr ""
+
+#: shortcodes/blog.php:517 shortcodes/portfolio.php:573
+#: shortcodes/welcome-block-2.php:200 shortcodes/welcome-block.php:280
+msgid "fade-down-left"
+msgstr ""
+
+#: shortcodes/blog.php:518 shortcodes/portfolio.php:574
+#: shortcodes/welcome-block-2.php:201 shortcodes/welcome-block.php:281
+msgid "flip-up"
+msgstr ""
+
+#: shortcodes/blog.php:519 shortcodes/portfolio.php:575
+#: shortcodes/welcome-block-2.php:202 shortcodes/welcome-block.php:282
+msgid "flip-down"
+msgstr ""
+
+#: shortcodes/blog.php:520 shortcodes/portfolio.php:576
+#: shortcodes/welcome-block-2.php:203 shortcodes/welcome-block.php:283
+msgid "flip-left"
+msgstr ""
+
+#: shortcodes/blog.php:521 shortcodes/portfolio.php:577
+#: shortcodes/welcome-block-2.php:204 shortcodes/welcome-block.php:284
+msgid "flip-right"
+msgstr ""
+
+#: shortcodes/blog.php:522 shortcodes/portfolio.php:578
+#: shortcodes/welcome-block-2.php:205 shortcodes/welcome-block.php:285
+msgid "slide-up"
+msgstr ""
+
+#: shortcodes/blog.php:523 shortcodes/portfolio.php:579
+#: shortcodes/welcome-block-2.php:206 shortcodes/welcome-block.php:286
+msgid "slide-left"
+msgstr ""
+
+#: shortcodes/blog.php:524 shortcodes/portfolio.php:580
+#: shortcodes/welcome-block-2.php:207 shortcodes/welcome-block.php:287
+msgid "slide-right"
+msgstr ""
+
+#: shortcodes/blog.php:525 shortcodes/portfolio.php:581
+#: shortcodes/welcome-block-2.php:208 shortcodes/welcome-block.php:288
+msgid "zoom-in"
+msgstr ""
+
+#: shortcodes/blog.php:526 shortcodes/portfolio.php:582
+#: shortcodes/welcome-block-2.php:209 shortcodes/welcome-block.php:289
+msgid "zoom-in-up"
+msgstr ""
+
+#: shortcodes/blog.php:527 shortcodes/portfolio.php:583
+#: shortcodes/welcome-block-2.php:210 shortcodes/welcome-block.php:290
+msgid "zoom-in-down"
+msgstr ""
+
+#: shortcodes/blog.php:528 shortcodes/portfolio.php:584
+#: shortcodes/welcome-block-2.php:211 shortcodes/welcome-block.php:291
+msgid "zoom-in-left"
+msgstr ""
+
+#: shortcodes/blog.php:529 shortcodes/portfolio.php:585
+#: shortcodes/welcome-block-2.php:212 shortcodes/welcome-block.php:292
+msgid "zoom-in-right"
+msgstr ""
+
+#: shortcodes/blog.php:530 shortcodes/portfolio.php:586
+#: shortcodes/welcome-block-2.php:213 shortcodes/welcome-block.php:293
+msgid "zoom-out"
+msgstr ""
+
+#: shortcodes/blog.php:531 shortcodes/portfolio.php:587
+#: shortcodes/welcome-block-2.php:214 shortcodes/welcome-block.php:294
+msgid "zoom-out-up"
+msgstr ""
+
+#: shortcodes/blog.php:532 shortcodes/portfolio.php:588
+#: shortcodes/welcome-block-2.php:215 shortcodes/welcome-block.php:295
+msgid "zoom-out-down"
+msgstr ""
+
+#: shortcodes/blog.php:533 shortcodes/portfolio.php:589
+#: shortcodes/welcome-block-2.php:216 shortcodes/welcome-block.php:296
+msgid "zoom-out-left"
+msgstr ""
+
+#: shortcodes/blog.php:534 shortcodes/portfolio.php:590
+#: shortcodes/welcome-block-2.php:217 shortcodes/welcome-block.php:297
+msgid "zoom-out-right"
+msgstr ""
+
+#: shortcodes/blog.php:536 shortcodes/portfolio.php:592
+#: shortcodes/welcome-block-2.php:219 shortcodes/welcome-block.php:299
+msgid "Live review Animations at: "
+msgstr ""
+
+#: shortcodes/blog.php:541 shortcodes/portfolio.php:597
+#: shortcodes/welcome-block-2.php:224 shortcodes/welcome-block.php:304
+msgid "AOS delay value"
+msgstr ""
+
+#: shortcodes/blog.php:544 shortcodes/portfolio.php:600
+#: shortcodes/welcome-block-2.php:227
+msgid "AOS delay value of item in block"
+msgstr ""
+
+#: shortcodes/blog.php:549 shortcodes/portfolio.php:605
+#: shortcodes/welcome-block-2.php:232 shortcodes/welcome-block.php:312
+msgid "AOS delay offset"
+msgstr ""
+
+#: shortcodes/blog.php:552 shortcodes/portfolio.php:608
+#: shortcodes/welcome-block-2.php:235
+msgid "AOS delay offset value of item in block"
+msgstr ""
+
+#: shortcodes/blog.php:559
+msgid "BuildMag Blog"
+msgstr ""
+
+#: shortcodes/button.php:136 shortcodes/download.php:174
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/button.php:144 shortcodes/download.php:235
+#: shortcodes/people.php:247 shortcodes/testimonials.php:168
+#: shortcodes/typo.php:167
+msgid "Style"
+msgstr ""
+
+#: shortcodes/button.php:147
+msgid "Default Style"
+msgstr ""
+
+#: shortcodes/button.php:148
+msgid "Bordered Style"
+msgstr ""
+
+#: shortcodes/button.php:150
+msgid "Select icon box style."
+msgstr ""
+
+#: shortcodes/button.php:154 shortcodes/typo.php:180
+msgid "Text color"
+msgstr ""
+
+#: shortcodes/button.php:157 shortcodes/custom-box.php:124
+#: shortcodes/typo.php:183
+msgid "Hexa color of text"
+msgstr ""
+
+#: shortcodes/button.php:161
+msgid "Color of background"
+msgstr ""
+
+#: shortcodes/button.php:164
+msgid "Hexa color of Background. Bordered button does not use this value"
+msgstr ""
+
+#: shortcodes/button.php:172
+msgid "Color of hovered text"
+msgstr ""
+
+#: shortcodes/button.php:175
+msgid "Hexa color of hovered text"
+msgstr ""
+
+#: shortcodes/button.php:179
+msgid "Color of hovered background"
+msgstr ""
+
+#: shortcodes/button.php:182
+msgid "Hexa color of hovered background"
+msgstr ""
+
+#: shortcodes/button.php:187
+msgid "Icon CSS Class"
+msgstr ""
+
+#: shortcodes/button.php:190 shortcodes/icon-box.php:316
+msgid "Icon class, for example 'fa fa-home'"
+msgstr ""
+
+#: shortcodes/button.php:190 shortcodes/icon-box.php:316
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/button.php:194
+msgid "URL to navigate"
+msgstr ""
+
+#: shortcodes/button.php:200
+msgid "URL target"
+msgstr ""
+
+#: shortcodes/button.php:203 shortcodes/download.php:249
+msgid "Curent Tab"
+msgstr ""
+
+#: shortcodes/button.php:204 shortcodes/download.php:250
+msgid "New Tab"
+msgstr ""
+
+#: shortcodes/button.php:210
+msgid "BuildMag Button"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:17
+msgid "Container"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:19
+#: shortcodes/class.shortcode.block.php:27
+#: shortcodes/class.shortcode.block.php:35
+#: shortcodes/class.shortcode.block.php:43
+#: shortcodes/class.shortcode.block.php:51
+#: shortcodes/class.shortcode.block.php:59
+#: shortcodes/class.shortcode.block.php:67
+#: shortcodes/class.shortcode.element.php:71
+msgid "Design Options"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:21
+msgid "Is boxed or full-width block"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:25 shortcodes/icon-box.php:264
+#: shortcodes/typo.php:187
+msgid "Padding"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:29
+msgid "Padding of block. Default is '0px 0px 0px 0px' (TOP RIGHT BOTTOM LEFT)"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:33 shortcodes/typo.php:194
+msgid "Margin"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:37
+msgid "Margin of block. Default is '0px 0px 0px 0px' (TOP RIGHT BOTTOM LEFT)"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:41
+msgid "No Gutter"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:45
+msgid "Is having gutter (left & right padding)"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:49
+#: shortcodes/class.shortcode.block.php:53
+msgid "Background Image"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:57
+#: shortcodes/class.shortcode.block.php:61 shortcodes/compare-table.php:249
+#: shortcodes/download.php:219 shortcodes/welcome-block-2.php:158
+#: shortcodes/welcome-block.php:224
+msgid "Background Color"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:65
+msgid "Parallax"
+msgstr ""
+
+#: shortcodes/class.shortcode.block.php:69
+msgid "Enable Parallax Effect for background"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:17
+#: shortcodes/class.shortcode.element.php:55
+#: shortcodes/class.shortcode.element.php:63
+msgid "Effect Options"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:19
+msgid "Come-in Effect"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:20
+msgid "Choose Come-in Effect"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:58
+msgid "Come-in Effect Delay"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:59
+msgid "Enter Come-in Effect Delay, in milliseconds"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:66
+msgid "Come-in Effect Offset"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:67
+msgid "Enter Come-in Offset Delay, in milliseconds"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:74
+msgid "CSS Class"
+msgstr ""
+
+#: shortcodes/class.shortcode.element.php:75 shortcodes/compare-table.php:214
+msgid "Custom CSS Class"
+msgstr ""
+
+#: shortcodes/compare-table.php:199
+msgid "Class"
+msgstr ""
+
+#: shortcodes/compare-table.php:201 shortcodes/compare-table.php:260
+msgid "Custom CSS class"
+msgstr ""
+
+#: shortcodes/compare-table.php:207
+msgid "Custom ID. If not provided, random ID is generated"
+msgstr ""
+
+#: shortcodes/compare-table.php:216
+msgid "Custom CSS Class for this column"
+msgstr ""
+
+#: shortcodes/compare-table.php:222
+msgid "Title of column"
+msgstr ""
+
+#: shortcodes/compare-table.php:228
+msgid "Price"
+msgstr ""
+
+#: shortcodes/compare-table.php:229
+msgid "Price value. Ex: $5"
+msgstr ""
+
+#: shortcodes/compare-table.php:234
+msgid "Price Text"
+msgstr ""
+
+#: shortcodes/compare-table.php:235
+msgid "Price text. Ex: Monthly"
+msgstr ""
+
+#: shortcodes/compare-table.php:241 shortcodes/download.php:211
+#: shortcodes/welcome-block-2.php:165 shortcodes/welcome-block.php:231
+msgid "Text Color"
+msgstr ""
+
+#: shortcodes/compare-table.php:244
+msgid "Text color in the column"
+msgstr ""
+
+#: shortcodes/compare-table.php:252
+msgid "Background color of the column"
+msgstr ""
+
+#: shortcodes/compare-table.php:261
+msgid "Custom CSS Class for each row"
+msgstr ""
+
+#: shortcodes/compare-table.php:266 shortcodes/contact.php:170
+#: shortcodes/custom-box.php:129 shortcodes/download.php:255
+#: shortcodes/icon-box.php:343 shortcodes/testimonials.php:246
+#: shortcodes/typo.php:237
+msgid "Content"
+msgstr ""
+
+#: shortcodes/compare-table.php:272
+msgid "BuildMag Compare Table"
+msgstr ""
+
+#: shortcodes/compare-table.php:286
+msgid "Compare Table Column"
+msgstr ""
+
+#: shortcodes/compare-table.php:297
+msgid "Compare Table Row"
+msgstr ""
+
+#: shortcodes/contact.php:142
+msgid "Name of contact"
+msgstr ""
+
+#: shortcodes/contact.php:150
+msgid "Title of contact"
+msgstr ""
+
+#: shortcodes/contact.php:155
+msgid "Email"
+msgstr ""
+
+#: shortcodes/contact.php:158
+msgid "Email of contact"
+msgstr ""
+
+#: shortcodes/contact.php:163
+msgid "Phone number"
+msgstr ""
+
+#: shortcodes/contact.php:166
+msgid "Phone number of contact"
+msgstr ""
+
+#: shortcodes/contact.php:178
+msgid "BuildMag Contacts"
+msgstr ""
+
+#: shortcodes/contact.php:191
+msgid "BuildMag Contact"
+msgstr ""
+
+#: shortcodes/custom-box.php:113 shortcodes/image-columns.php:178
+#: shortcodes/people.php:267 shortcodes/testimonials.php:216
+msgid "Background"
+msgstr ""
+
+#: shortcodes/custom-box.php:116
+msgid "Hexa color of background"
+msgstr ""
+
+#: shortcodes/custom-box.php:121 shortcodes/icon-box.php:306
+msgid "Color"
+msgstr ""
+
+#: shortcodes/custom-box.php:132
+msgid "Custom Box Content"
+msgstr ""
+
+#: shortcodes/custom-box.php:137
+msgid "Custom Box"
+msgstr ""
+
+#: shortcodes/download.php:181
+msgid "Button Background"
+msgstr ""
+
+#: shortcodes/download.php:184
+msgid "Background color of the button"
+msgstr ""
+
+#: shortcodes/download.php:189
+msgid "Button Color"
+msgstr ""
+
+#: shortcodes/download.php:192
+msgid "Text color of the button"
+msgstr ""
+
+#: shortcodes/download.php:197
+msgid "Color of hovered Button background"
+msgstr ""
+
+#: shortcodes/download.php:204
+msgid "Color of hovered Button text"
+msgstr ""
+
+#: shortcodes/download.php:214
+msgid "Text color of the box"
+msgstr ""
+
+#: shortcodes/download.php:222
+msgid "Backround color of the box"
+msgstr ""
+
+#: shortcodes/download.php:226
+msgid "Button URL"
+msgstr ""
+
+#: shortcodes/download.php:229
+msgid "Full URL, ie. Including http://, of the button"
+msgstr ""
+
+#: shortcodes/download.php:238 shortcodes/icon-box.php:277
+#: shortcodes/people.php:250 shortcodes/testimonials.php:171
+msgid "Style 1"
+msgstr ""
+
+#: shortcodes/download.php:239 shortcodes/icon-box.php:278
+#: shortcodes/people.php:251 shortcodes/testimonials.php:172
+msgid "Style 2"
+msgstr ""
+
+#: shortcodes/download.php:241
+msgid "Choose style of the box"
+msgstr ""
+
+#: shortcodes/download.php:246
+msgid "Target of button URL"
+msgstr ""
+
+#: shortcodes/download.php:264
+msgid "BuildMag Download Box"
+msgstr ""
+
+#: shortcodes/icon-box.php:260
+msgid "Group style"
+msgstr ""
+
+#: shortcodes/icon-box.php:263
+msgid "No Padding"
+msgstr ""
+
+#: shortcodes/icon-box.php:265
+msgid "Bordered"
+msgstr ""
+
+#: shortcodes/icon-box.php:267
+msgid "Choose group style"
+msgstr ""
+
+#: shortcodes/icon-box.php:274
+msgid "Item style"
+msgstr ""
+
+#: shortcodes/icon-box.php:279 shortcodes/testimonials.php:173
+msgid "Style 3"
+msgstr ""
+
+#: shortcodes/icon-box.php:280
+msgid "Style 4"
+msgstr ""
+
+#: shortcodes/icon-box.php:281
+msgid "Style 5"
+msgstr ""
+
+#: shortcodes/icon-box.php:282
+msgid "Style 6"
+msgstr ""
+
+#: shortcodes/icon-box.php:284
+msgid "Choose icon box style"
+msgstr ""
+
+#: shortcodes/icon-box.php:289
+msgid "Item Per Row"
+msgstr ""
+
+#: shortcodes/icon-box.php:292
+msgid "1 column"
+msgstr ""
+
+#: shortcodes/icon-box.php:293
+msgid "2 columns"
+msgstr ""
+
+#: shortcodes/icon-box.php:294
+msgid "3 columns"
+msgstr ""
+
+#: shortcodes/icon-box.php:295
+msgid "4 columns"
+msgstr ""
+
+#: shortcodes/icon-box.php:296
+msgid "6 columns"
+msgstr ""
+
+#: shortcodes/icon-box.php:309
+msgid "Main color of the box"
+msgstr ""
+
+#: shortcodes/icon-box.php:313
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/icon-box.php:324
+msgid "Title of box"
+msgstr ""
+
+#: shortcodes/icon-box.php:329
+msgid "Button text"
+msgstr ""
+
+#: shortcodes/icon-box.php:332
+msgid "If not specified, button is hidden"
+msgstr ""
+
+#: shortcodes/icon-box.php:336
+msgid "URL"
+msgstr ""
+
+#: shortcodes/icon-box.php:339
+msgid "URL to navigate on button"
+msgstr ""
+
+#: shortcodes/icon-box.php:350
+msgid "BuildMag IconBoxes"
+msgstr ""
+
+#: shortcodes/icon-box.php:363
+msgid "IconBox Item"
+msgstr ""
+
+#: shortcodes/image-columns.php:181
+msgid "Background image of the Column"
+msgstr ""
+
+#: shortcodes/image-columns.php:189
+msgid "Title of the column"
+msgstr ""
+
+#: shortcodes/image-columns.php:193
+msgid "Title URL"
+msgstr ""
+
+#: shortcodes/image-columns.php:199
+msgid "Sub-title"
+msgstr ""
+
+#: shortcodes/image-columns.php:202
+msgid "Sub-title of the column"
+msgstr ""
+
+#: shortcodes/image-columns.php:208
+msgid "BuildMag Image Columns"
+msgstr ""
+
+#: shortcodes/image-columns.php:221
+msgid "Image Column"
+msgstr ""
+
+#: shortcodes/people.php:253
+msgid "Choose peole style"
+msgstr ""
+
+#: shortcodes/people.php:260 shortcodes/testimonials.php:223
+msgid "Avatar"
+msgstr ""
+
+#: shortcodes/people.php:263
+msgid "Full URL of image or ID of attachment"
+msgstr ""
+
+#: shortcodes/people.php:270
+msgid "Hover background color"
+msgstr ""
+
+#: shortcodes/people.php:278
+msgid "Name of person"
+msgstr ""
+
+#: shortcodes/people.php:286
+msgid "Personnel Title"
+msgstr ""
+
+#: shortcodes/people.php:293
+msgid "BuildMag People"
+msgstr ""
+
+#: shortcodes/people.php:308
+msgid "Person"
+msgstr ""
+
+#: shortcodes/portfolio.php:97
+msgid "All"
+msgstr ""
+
+#: shortcodes/portfolio.php:507
+msgid "choose portfolio layout."
+msgstr ""
+
+#: shortcodes/portfolio.php:512
+msgid "Categories"
+msgstr ""
+
+#: shortcodes/portfolio.php:514
+msgid "List of categories (ID) to query items from, separated by a comma."
+msgstr ""
+
+#: shortcodes/portfolio.php:522
+msgid ""
+"List of post IDs to query, separated by a comma. If this value is not empty, "
+"cats, tags and featured are omitted"
+msgstr ""
+
+#: shortcodes/portfolio.php:527
+msgid "Filter Bar"
+msgstr ""
+
+#: shortcodes/portfolio.php:530
+msgid "Hide"
+msgstr ""
+
+#: shortcodes/portfolio.php:531
+msgid "Show"
+msgstr ""
+
+#: shortcodes/portfolio.php:533
+msgid "Show category filter bar"
+msgstr ""
+
+#: shortcodes/portfolio.php:538
+msgid "Count"
+msgstr ""
+
+#: shortcodes/portfolio.php:541
+msgid "Number of items to query. By default, it is -1 ie. List all"
+msgstr ""
+
+#: shortcodes/portfolio.php:545
+msgid "Item per row"
+msgstr ""
+
+#: shortcodes/portfolio.php:546
+msgid "For layout 8 only"
+msgstr ""
+
+#: shortcodes/portfolio.php:549
+msgid "3 items"
+msgstr ""
+
+#: shortcodes/portfolio.php:550
+msgid "4 items"
+msgstr ""
+
+#: shortcodes/portfolio.php:616
+msgid "BuildMag Portfolio"
+msgstr ""
+
+#: shortcodes/progress.php:173
+msgid "Type"
+msgstr ""
+
+#: shortcodes/progress.php:176
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/progress.php:177
+msgid "Bar"
+msgstr ""
+
+#: shortcodes/progress.php:179
+msgid "Type of progress bar"
+msgstr ""
+
+#: shortcodes/progress.php:189
+msgid "Float number of percentage"
+msgstr ""
+
+#: shortcodes/progress.php:192
+msgid "Float number of percentage, for example 0.9"
+msgstr ""
+
+#: shortcodes/progress.php:197 shortcodes/progress.php:200
+msgid "Text to represent value"
+msgstr ""
+
+#: shortcodes/progress.php:209
+msgid "Title of item"
+msgstr ""
+
+#: shortcodes/progress.php:213
+msgid "Color of Text"
+msgstr ""
+
+#: shortcodes/progress.php:216
+msgid "Color of text. Default is #FFF"
+msgstr ""
+
+#: shortcodes/progress.php:220
+msgid "Icon Background Color"
+msgstr ""
+
+#: shortcodes/progress.php:223
+msgid "Color of the bar. Default is #ffd417"
+msgstr ""
+
+#: shortcodes/progress.php:229
+msgid "BuildMag Progress"
+msgstr ""
+
+#: shortcodes/progress.php:241
+msgid "Progress Item"
+msgstr ""
+
+#: shortcodes/separator.php:57
+msgid "BuildMag Separator"
+msgstr ""
+
+#: shortcodes/testimonials.php:179
+msgid "Autoplay"
+msgstr ""
+
+#: shortcodes/testimonials.php:182 shortcodes/testimonials.php:193
+#: shortcodes/testimonials.php:204
+msgid "Disable"
+msgstr ""
+
+#: shortcodes/testimonials.php:183 shortcodes/testimonials.php:194
+#: shortcodes/testimonials.php:205
+msgid "Enable"
+msgstr ""
+
+#: shortcodes/testimonials.php:185
+msgid "Autoplay the testimonial slideshow or not"
+msgstr ""
+
+#: shortcodes/testimonials.php:190
+msgid "Bullets"
+msgstr ""
+
+#: shortcodes/testimonials.php:196
+msgid "Enable the testimonial slideshow bullets or not"
+msgstr ""
+
+#: shortcodes/testimonials.php:201
+msgid "Arrows"
+msgstr ""
+
+#: shortcodes/testimonials.php:207
+msgid "Enable the testimonial slideshow arrows or not"
+msgstr ""
+
+#: shortcodes/testimonials.php:219
+msgid "Background image for Style 1"
+msgstr ""
+
+#: shortcodes/testimonials.php:226
+msgid "Avatar image for Style 1 & 3"
+msgstr ""
+
+#: shortcodes/testimonials.php:234
+msgid "Name of person for Style 1 & 2"
+msgstr ""
+
+#: shortcodes/testimonials.php:242
+msgid "Title of person for Style 1"
+msgstr ""
+
+#: shortcodes/testimonials.php:254
+msgid "BuildMag Testimonials"
+msgstr ""
+
+#: shortcodes/testimonials.php:266
+msgid "Testimonial Item"
+msgstr ""
+
+#: shortcodes/typo.php:133
+msgid "Font Size"
+msgstr ""
+
+#: shortcodes/typo.php:136
+msgid "In pixels. Example: 14px"
+msgstr ""
+
+#: shortcodes/typo.php:140 shortcodes/typo.php:141 shortcodes/typo.php:215
+msgid "Font Weight"
+msgstr ""
+
+#: shortcodes/typo.php:144 shortcodes/typo.php:214
+msgid "Weight"
+msgstr ""
+
+#: shortcodes/typo.php:145
+msgid "200"
+msgstr ""
+
+#: shortcodes/typo.php:146
+msgid "300"
+msgstr ""
+
+#: shortcodes/typo.php:147
+msgid "400"
+msgstr ""
+
+#: shortcodes/typo.php:148
+msgid "500"
+msgstr ""
+
+#: shortcodes/typo.php:149
+msgid "600"
+msgstr ""
+
+#: shortcodes/typo.php:150
+msgid "700"
+msgstr ""
+
+#: shortcodes/typo.php:151
+msgid "800"
+msgstr ""
+
+#: shortcodes/typo.php:152
+msgid "900"
+msgstr ""
+
+#: shortcodes/typo.php:153
+msgid "Bold"
+msgstr ""
+
+#: shortcodes/typo.php:154
+msgid "Bolder"
+msgstr ""
+
+#: shortcodes/typo.php:155 shortcodes/typo.php:169
+msgid "Initial"
+msgstr ""
+
+#: shortcodes/typo.php:156
+msgid "Lighter"
+msgstr ""
+
+#: shortcodes/typo.php:157 shortcodes/typo.php:171
+msgid "Normal"
+msgstr ""
+
+#: shortcodes/typo.php:163 shortcodes/typo.php:164
+msgid "Font Style"
+msgstr ""
+
+#: shortcodes/typo.php:168
+msgid "Inherit"
+msgstr ""
+
+#: shortcodes/typo.php:170
+msgid "Italic"
+msgstr ""
+
+#: shortcodes/typo.php:172
+msgid "Oblique"
+msgstr ""
+
+#: shortcodes/typo.php:190 shortcodes/typo.php:197
+msgid "Format: TOP RIGHT BOTTOM LEFT. ex: 0px 0px 0px 0px"
+msgstr ""
+
+#: shortcodes/typo.php:218
+msgid "Line Height"
+msgstr ""
+
+#: shortcodes/typo.php:219
+msgid "1em"
+msgstr ""
+
+#: shortcodes/typo.php:220
+msgid "1.1em"
+msgstr ""
+
+#: shortcodes/typo.php:221
+msgid "1.2em"
+msgstr ""
+
+#: shortcodes/typo.php:222
+msgid "1.5em"
+msgstr ""
+
+#: shortcodes/typo.php:223
+msgid "2em"
+msgstr ""
+
+#: shortcodes/typo.php:230
+msgid "HTML Tag"
+msgstr ""
+
+#: shortcodes/typo.php:233
+msgid "HTML tag to wrap the text. Default is: "
+msgstr ""
+
+#: shortcodes/typo.php:244
+msgid "BuildMag Typo"
+msgstr ""
+
+#: shortcodes/welcome-block-2.php:161 shortcodes/welcome-block.php:227
+msgid "Background color of content"
+msgstr ""
+
+#: shortcodes/welcome-block-2.php:168 shortcodes/welcome-block.php:234
+msgid "Text color of content"
+msgstr ""
+
+#: shortcodes/welcome-block-2.php:172
+msgid "Block Background 1"
+msgstr ""
+
+#: shortcodes/welcome-block-2.php:175 shortcodes/welcome-block-2.php:182
+#: shortcodes/welcome-block.php:241
+msgid "Background image of the remaining block"
+msgstr ""
+
+#: shortcodes/welcome-block-2.php:179
+msgid "Block Background 2"
+msgstr ""
+
+#: shortcodes/welcome-block-2.php:242
+msgid "BuildMag Welcome Block 2"
+msgstr ""
+
+#: shortcodes/welcome-block.php:206
+msgid "Heading text"
+msgstr ""
+
+#: shortcodes/welcome-block.php:212
+msgid "Sub-heading text"
+msgstr ""
+
+#: shortcodes/welcome-block.php:218
+msgid "Short Description"
+msgstr ""
+
+#: shortcodes/welcome-block.php:238
+msgid "Block Background"
+msgstr ""
+
+#: shortcodes/welcome-block.php:245
+msgid "Text Alignment"
+msgstr ""
+
+#: shortcodes/welcome-block.php:246
+msgid "Text alignment of block description"
+msgstr ""
+
+#: shortcodes/welcome-block.php:256
+msgid "Description Position"
+msgstr ""
+
+#: shortcodes/welcome-block.php:257
+msgid "Position of the block description"
+msgstr ""
+
+#: shortcodes/welcome-block.php:307
+msgid "AOS delay value of each item in block"
+msgstr ""
+
+#: shortcodes/welcome-block.php:315
+msgid "AOS delay offset value of each item in block"
+msgstr ""
+
+#: shortcodes/welcome-block.php:319
+msgid "BuildMag Welcome Block"
+msgstr ""
+
+#: templates/isotope-item.php:47
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/isotope-item.php:53
+msgid "Pages:"
+msgstr ""
+
+#: templates/isotope-item.php:67
+msgid "Read more"
+msgstr ""

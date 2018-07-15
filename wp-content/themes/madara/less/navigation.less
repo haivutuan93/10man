@@ -1,0 +1,132 @@
+/**
+ * :: Navigation
+ * -------------------------------------------------- */
+.main-navigation {
+	.main-menu {
+		padding: 18px 0 17px;
+		//First Menu
+		ul {
+			@media @max-sm-desktop {
+				.main-menu {
+					ul {
+					}
+				}
+			}
+			li {
+				> a {
+					font-size: 14px;
+					&:hover {
+					}
+					@media (max-width: 1199px) {
+						padding: 18px 25px 14px;
+					}
+				}
+				&:hover {
+					> a {
+						// color: @nav-hover;
+					}
+				}
+				&.menu-item-has-children {
+					> a {
+						&:after {
+							content: "\f3d0";
+							display: inline-block;
+							font-family: "Ionicons";
+							speak: none;
+							font-style: normal;
+							font-weight: normal;
+							font-variant: normal;
+							text-transform: none;
+							text-rendering: auto;
+							line-height: 1;
+							-webkit-font-smoothing: antialiased;
+							-moz-osx-font-smoothing: grayscale;
+							margin-left: 10px;
+						}
+					}
+				}
+			}
+			&.main-navbar {
+				> li {
+					> a {
+						background: transparent;
+						color: #fff;
+					}
+				}
+			}
+		}
+		@media (max-width: 992px) {
+			display: none !important;
+		}
+	}
+}
+
+.site-header {
+	.c-sub-header-nav {
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		z-index: 99;
+		&.sticky {
+			-webkit-animation: eFadeIn .3s;
+			animation: eFadeIn .3s;
+			position: fixed !important;
+			width: 100%;
+			left: 0;
+			top: 0;
+			z-index: 9999;
+			-webkit-box-shadow: 0px 1px 0px 0px rgba(184, 184, 184, 0.4);
+			box-shadow: 0px 1px 0px 0px rgba(184, 184, 184, 0.4);
+		}
+	}
+}
+
+body {
+	&.admin-bar {
+		.off-canvas {
+			top: 32px;
+			height: ~'calc(100% - 32px)';
+			@media (max-width: 782px) {
+				top: 46px;
+				height: ~'calc(100% - 46px)';
+			}
+			@media (max-width: 600px) {
+				top: 0;
+				z-index: 100000;
+				height: 100%;
+			}
+		}
+		&.sticky__active {
+			.c-sub-header-nav {
+				&.sticky {
+					top: 32px;
+					@media (max-width: 782px) {
+						top: 46px;
+					}
+					@media (max-width: 600px) {
+						top: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+@-webkit-keyframes eFadeIn {
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes eFadeIn {
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
