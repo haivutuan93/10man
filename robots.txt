@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /readme.html
+Disallow: /license.txt
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-admin/images/*
+Sitemap: https://10manga.com/sitemap_home.xml
