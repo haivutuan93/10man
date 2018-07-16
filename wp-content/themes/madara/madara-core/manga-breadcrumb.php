@@ -102,8 +102,9 @@
 										$wp_manga_chapter = madara_get_global_wp_manga_chapter();
 										$chapter_json     = $wp_manga->get_chapter( get_the_ID() );
 
-										$chapter_db = $wp_manga_chapter->get_chapter_by_slug( get_the_ID(), $chapter_slug );
-
+//										$chapter_db = $wp_manga_chapter->get_chapter_by_slug( get_the_ID(), $chapter_slug );
+                                                                                global $global_chapter_by_slug;
+                                                                                $chapter_db = $global_chapter_by_slug;
 										$c_name   = isset( $chapter_db['chapter_name'] ) ? $chapter_db['chapter_name'] : '';
 										$c_extend = madara_get_global_wp_manga_functions()->filter_extend_name( $chapter_db['chapter_name_extend'] );
 

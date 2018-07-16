@@ -2,20 +2,26 @@
 /** Manga paged * */
 $name = get_query_var('chapter');
 
+$global_wp_manga_functions = madara_get_global_wp_manga_functions();
+$global_manga_chapters = $global_wp_manga_functions->get_all_chapters(get_the_ID());
+
 if ($name == '') {
     get_template_part(404);
     exit();
 }
 $wp_manga_chapter = madara_get_global_wp_manga_chapter();
 $chapter_slug = get_query_var('chapter');
+
+$global_chapter_by_slug = $wp_manga_chapter->get_chapter_by_slug(get_the_ID(), $chapter_slug);
 $c_name = '';
 if (!empty($chapter_slug)) {
     $chapter_json = $wp_manga->get_chapter(get_the_ID());
-    $chapter_db = $wp_manga_chapter->get_chapter_by_slug(get_the_ID(), $chapter_slug);
-    $c_name = isset($chapter_db['chapter_name']) ? $chapter_db['chapter_name'] : '';
+    $c_name = isset($global_chapter_by_slug['chapter_name']) ? $global_chapter_by_slug['chapter_name'] : '';
 }
 
 add_filter('pre_get_document_title', function( $title ) {
+    global $global_manga_chapters;
+    global $global_wp_manga_functions;
 //tags
     $tag_name = '';
     $manga_tags = get_the_terms(get_the_ID(), 'wp-manga-tag');
@@ -40,13 +46,10 @@ add_filter('pre_get_document_title', function( $title ) {
         }
     }
     
-
-    $wp_manga_functions = madara_get_global_wp_manga_functions();
-    $h_manga = $wp_manga_functions->get_all_chapters(get_the_ID());
     $cur_chap = get_query_var('chapter');
     $cur_chap_name = '';
     $cur_vol_name = '';
-    foreach ($h_manga as $h_vol) {
+    foreach ($global_manga_chapters as $h_vol) {
         foreach ($h_vol['chapters'] as $h_chap) {
             if ($h_chap['chapter_slug'] == $cur_chap) {
                 $cur_chap_name = $h_chap['chapter_name'];
@@ -70,14 +73,14 @@ add_filter('pre_get_document_title', function( $title ) {
 }, 999, 1);
 
 function custom_add_meta_description_tag() {
-    $wp_manga_functions = madara_get_global_wp_manga_functions();
-    $h_manga = $wp_manga_functions->get_all_chapters(get_the_ID());
+    global $global_wp_manga_functions;
+    global $global_manga_chapters;
     $cur_chap = get_query_var('chapter');
     $cur_chap_name = '';
     $cur_vol_name = '';
     $h_chap_related_name_1 = '';
     $h_chap_related_name_2 = '';
-    foreach ($h_manga as $h_vol) {
+    foreach ($global_manga_chapters as $h_vol) {
         for ($i = 0; $i < sizeof($h_vol['chapters']); $i++) {
             $h_chap = $h_vol['chapters'][$i];
             if ($h_chap['chapter_slug'] == $cur_chap) {

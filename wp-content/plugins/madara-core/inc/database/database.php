@@ -162,14 +162,10 @@
 					//put appropiate values to sorted position
 					$output_results = array();
 					foreach( $results_order as $result ){
-						array_push( $output_results, $results[$result] );
+                                            array_unshift( $output_results, $results[$result] );
 					}
-
-					if( !empty( $sort_order ) && $sort_order == 'desc' ){
-						$results = array_reverse( $output_results );
-					}else{
-						$results = $output_results;
-					}
+                                        
+                                        $results = $output_results;
 
 				}
 			}

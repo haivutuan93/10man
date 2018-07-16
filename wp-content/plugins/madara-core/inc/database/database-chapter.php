@@ -56,8 +56,8 @@
 			return $this->get( $this->chapter_table, $where, $orderby, $order , $num_limit );
 
 		}
-
-		function get_latest_chapters( $post_id, $q, $num, $all_meta = 0, $orderby = 'name', $order = 'desc' ) {
+                
+                function get_latest_chapters( $post_id, $q, $num, $all_meta = 0, $orderby = 'name', $order = 'desc' ) {
 
 			$chapters = $this->get_chapters( array(
 				'post_id' => $post_id
@@ -147,9 +147,9 @@
 		}
 
 		function get_chapter_id_by_slug( $post_id, $chapter_slug ) {
-
-			$chapter = $this->get_chapter_by_slug( $post_id, $chapter_slug );
-
+                        global $global_chapter_by_slug;
+//			$chapter = $this->get_chapter_by_slug( $post_id, $chapter_slug );
+                        $chapter = $global_chapter_by_slug;
 			if ( $chapter ) {
 				return $chapter['chapter_id'];
 			}

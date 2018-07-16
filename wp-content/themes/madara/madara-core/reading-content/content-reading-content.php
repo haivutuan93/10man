@@ -16,7 +16,9 @@
 		exit();
 	}
 
-	$this_chapter = madara_get_global_wp_manga_chapter()->get_chapter_by_slug( get_the_ID(), $name );
+//	$this_chapter = madara_get_global_wp_manga_chapter()->get_chapter_by_slug( get_the_ID(), $name );
+        global $global_chapter_by_slug;
+        $this_chapter  = $global_chapter_by_slug;
 
 	if ( ! $this_chapter ) {
 		return;

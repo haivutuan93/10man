@@ -12,12 +12,13 @@
 	$thumb_size = array( 193, 278 );
 
 	$manga_reading_style = $wp_manga_functions->get_reading_style();
-	$manga_alternative   = get_post_meta( get_the_ID(), '_wp_manga_alternative', true );
-	$manga_author        = get_the_terms( get_the_ID(), 'wp-manga-author' );
-	$manga_artist        = get_the_terms( get_the_ID(), 'wp-manga-artist' );
-	$manga_genre         = get_the_terms( get_the_ID(), 'wp-manga-genre' );
-	$manga_status        = get_post_meta( get_the_ID(), '_wp_manga_status', true );
-	$manga_release       = get_the_terms( get_the_ID(), 'wp-manga-release' );
+        $id_post = get_the_ID();
+	$manga_alternative   = get_post_meta( $id_post, '_wp_manga_alternative', true );
+	$manga_author        = get_the_terms( $id_post, 'wp-manga-author' );
+	$manga_artist        = get_the_terms( $id_post, 'wp-manga-artist' );
+	$manga_genre         = get_the_terms( $id_post, 'wp-manga-genre' );
+	$manga_status        = get_post_meta( $id_post, '_wp_manga_status', true );
+	$manga_release       = get_the_terms( $id_post, 'wp-manga-release' );
 ?>
 <div class="c-tabs-item__content">
     <div class="col-sm-2 col-md-2">

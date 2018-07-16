@@ -5,7 +5,7 @@
 	 * @package madara
 	 */
 	require( get_template_directory() . '/app/theme.php' );
-	
+        
 	function rikaki_delete_manga_start($post_id) {
     $post_type = get_post_type($post_id);
 

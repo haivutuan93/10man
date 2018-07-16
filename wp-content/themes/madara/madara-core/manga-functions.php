@@ -268,7 +268,7 @@
 	}
 
 	function madara_user_history() {
-
+                
 		$post_id      = isset( $_POST['postID'] ) ? $_POST['postID'] : '';
 		$chapter_slug = isset( $_POST['chapterSlug'] ) ? $_POST['chapterSlug'] : '';
 		$paged        = isset( $_POST['paged'] ) ? $_POST['paged'] : '';
@@ -278,10 +278,11 @@
 		if ( empty( $post_id ) || empty( $chapter_slug ) || empty( $user_id ) ) {
 			wp_send_json_error();
 		}
-
+                global $global_chapter_by_slug;
 		//get chapter name
 		if ( class_exists( 'WP_MANGA' ) ) {
-			$chapter = madara_get_global_wp_manga_chapter()->get_chapter_by_slug( $post_id, $chapter_slug );
+//			$chapter = madara_get_global_wp_manga_chapter()->get_chapter_by_slug( $post_id, $chapter_slug );
+                        $chapter = $global_chapter_by_slug;
 		}
 
 		$this_history = array(
@@ -608,14 +609,15 @@
 
 	add_filter( 'pre_get_document_title', 'change_title_for_manga_single' );
 	function change_title_for_manga_single( $title ) {
-		global $post, $wp_manga_chapter, $wp_manga_setting;
+		global $post, $wp_manga_chapter, $wp_manga_setting, $global_chapter_by_slug;
 		if ( is_single() && isset( $post->post_type ) && $post->post_type == 'wp-manga' && get_query_var( 'chapter' ) != '' ) {
 
 			$single_manga_seo = $wp_manga_setting->get_manga_option( 'single_manga_seo', 'manga' );
 			$site_name        = get_bloginfo( 'name' );
 
 			$chapter_slug = get_query_var( 'chapter' );
-			$chapter      = $wp_manga_chapter->get_chapter_by_slug( $post->ID, $chapter_slug );
+//			$chapter      = $wp_manga_chapter->get_chapter_by_slug( $post->ID, $chapter_slug );
+                        $chapter = $global_chapter_by_slug;
 			$chapter_name = $chapter['chapter_name'];
 
 			$title = $post->post_title . ' - ' . $chapter_name;

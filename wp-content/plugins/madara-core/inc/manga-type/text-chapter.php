@@ -51,8 +51,11 @@
                                         //$link = $wp_manga_functions->build_chapter_url( get_the_ID(), $chap['chapter_slug'] );
 										$link = $wp_manga_functions->build_chapter_url_not_by_slug( get_the_ID(),$chap, $chap['chapter_slug'] );
 
-                                        if( isset( $cur_chap_passed ) && !isset( $next_chap ) ){
-                                            $next_chap = $link;
+//                                        if( isset( $cur_chap_passed ) && !isset( $next_chap ) ){
+//                                            $next_chap = $link;
+//                                        }
+                                        if( isset( $cur_chap_passed ) && !isset( $prev_chap ) ){
+                                            $prev_chap = $link;
                                         }
 
                                         if( $chap['chapter_slug'] == $cur_chap ){
@@ -61,8 +64,11 @@
                                         }
 
                                         //always set current chap in loop as $prev_chap, stop once current chap is passed
+//                                        if( !isset( $cur_chap_passed ) ){
+//                                            $prev_chap = $link;
+//                                        }
                                         if( !isset( $cur_chap_passed ) ){
-                                            $prev_chap = $link;
+                                            $next_chap = $link;
                                         }
                         }
                         ?>

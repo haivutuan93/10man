@@ -60,15 +60,16 @@ add_action('wp_head', 'custom_add_meta_description_tag_manga', 999, 1);
 	$wp_manga           = madara_get_global_wp_manga();
 	$wp_manga_functions = madara_get_global_wp_manga_functions();
 	$thumb_size         = array( 193, 278 );
-
-	$alternative = $wp_manga_functions->get_manga_alternative( get_the_ID() );
-	$rank        = $wp_manga_functions->get_manga_rank( get_the_ID() );
-	$views       = $wp_manga_functions->get_manga_monthly_views( get_the_ID() );
-	$authors     = $wp_manga_functions->get_manga_authors( get_the_ID() );
-	$rate        = $wp_manga_functions->get_total_review( get_the_ID() );
-	$vote        = $wp_manga_functions->get_total_vote( get_the_ID() );
-	$artists     = $wp_manga_functions->get_manga_artists( get_the_ID() );
-	$genres      = $wp_manga_functions->get_manga_genres( get_the_ID() );
+        
+        $id_post = get_the_ID();
+	$alternative = $wp_manga_functions->get_manga_alternative( $id_post );
+	$rank        = $wp_manga_functions->get_manga_rank( $id_post );
+	$views       = $wp_manga_functions->get_manga_monthly_views( $id_post );
+	$authors     = $wp_manga_functions->get_manga_authors( $id_post );
+	$rate        = $wp_manga_functions->get_total_review( $id_post );
+	$vote        = $wp_manga_functions->get_total_vote( $id_post );
+	$artists     = $wp_manga_functions->get_manga_artists( $id_post );
+	$genres      = $wp_manga_functions->get_manga_genres( $id_post );
 
 	$madara_single_sidebar    = madara_get_theme_sidebar_setting();
 	$madara_breadcrumb        = Madara::getOption( 'manga_single_breadcrumb', 'on' );

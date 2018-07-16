@@ -1333,7 +1333,7 @@
 			
 			if($url[strlen($url)-1] != '/'){
 				$url .= '/' ;                              
-            }
+                        }
 
 			return $url;
 

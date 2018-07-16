@@ -108,13 +108,14 @@
                 </script>
 				<?php
 			}
-            global $post, $wp_manga_chapter, $wp_manga_setting;
+            global $post, $wp_manga_chapter, $wp_manga_setting , $global_chapter_by_slug;
 			$is_manga_chapter = false;
             if (is_single() && isset($post->post_type) && $post->post_type == 'wp-manga' && get_query_var('chapter') != '') {
                 $single_manga_seo = $wp_manga_setting->get_manga_option('single_manga_seo', 'manga');
                 $site_name = get_bloginfo('name');
                 $chapter_slug = get_query_var('chapter');
-                $chapter = $wp_manga_chapter->get_chapter_by_slug($post->ID, $chapter_slug);
+//                $chapter = $wp_manga_chapter->get_chapter_by_slug($post->ID, $chapter_slug);
+                $chapter = $global_chapter_by_slug;
                 $chapter_name = $chapter['chapter_name'];
                 $chapter_name_extend = $chapter['chapter_name_extend'];
 
