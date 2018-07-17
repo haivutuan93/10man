@@ -1,4 +1,22 @@
 jQuery(document).ready(function($){
+        addChapterListReadingPage();
+        function addChapterListReadingPage(){
+            var postID = $("#manga-nav-header").attr("name");
+            var curChap = $("#manga-nav-header").attr("data-value");
+            $.ajax({
+			type : 'POST',
+			url : manga.ajax_url,
+			data : {				
+				action : 'wp-manga-list-chapter-reading', 
+                                postID: postID,
+                                curChap: curChap
+			},
+			success : function( response ){
+                                $('#manga-nav-header').append(response.trim());
+                                $('#manga-nav-footer').html(response.trim());
+			}
+		});
+        }
 
 	function chapterNavigationAjax( page ){
 
@@ -125,6 +143,8 @@ jQuery(document).ready(function($){
 			}
 			return true;
 		});
+                
+                
 	});
 
 	$(document).on( 'change', '.wp-manga-nav .single-chapter-select, #single-pager, .wp-manga-nav .host-select, .wp-manga-nav .reading-style-select', function(e){

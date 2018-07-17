@@ -3,7 +3,6 @@
 $name = get_query_var('chapter');
 
 $global_wp_manga_functions = madara_get_global_wp_manga_functions();
-$global_manga_chapters = $global_wp_manga_functions->get_all_chapters(get_the_ID());
 
 if ($name == '') {
     get_template_part(404);
@@ -20,114 +19,18 @@ if (!empty($chapter_slug)) {
 }
 
 add_filter('pre_get_document_title', function( $title ) {
-    global $global_manga_chapters;
-    global $global_wp_manga_functions;
-//tags
-    $tag_name = '';
-    $manga_tags = get_the_terms(get_the_ID(), 'wp-manga-tag');
-    $manga_tags = isset($manga_tags) && !empty($manga_tags) ? $manga_tags : array();
-    $tag_count = count($manga_tags);
-    $tag_flag = 0;
-    $separate_char = ', ';
-
-    if ($manga_tags == false || is_wp_error($manga_tags)) {
-        
-    }else{
-        foreach ($manga_tags as $tag) {
-            $tag_flag ++;
-            if ($tag->name == 'Truyện tranh') {
-                $tag_name = ' tranh';
-                break;
-            }
-            if ($tag->name == 'Truyện chữ') {
-                $tag_name = ' chữ';
-                break;
-            }
-        }
-    }
+    global $global_wp_manga_functions, $global_chapter_by_slug;
+    $cur_chap_name = $global_chapter_by_slug['chapter_name'];
+    $title = get_the_title() . ' - ' . $cur_chap_name . ' - Truyện tranh';
     
-    $cur_chap = get_query_var('chapter');
-    $cur_chap_name = '';
-    $cur_vol_name = '';
-    foreach ($global_manga_chapters as $h_vol) {
-        foreach ($h_vol['chapters'] as $h_chap) {
-            if ($h_chap['chapter_slug'] == $cur_chap) {
-                $cur_chap_name = $h_chap['chapter_name'];
-                $cur_vol_name = $h_vol['volume_name'];
-                break;
-            }
-            if ($cur_chap_name != '') {
-                break;
-            }
-        }
-    }
-    if ($cur_vol_name == 'No Volume') {
-        $title = get_the_title() . ' - ' . $cur_chap_name . ' - Truyện';
-    } else
-        $title = get_the_title() . ' - ' . $cur_vol_name . ' - ' . $cur_chap_name . ' - Truyện';
-    
-    if($tag_name != ''){
-        $title = $title. $tag_name;
-    }
     return $title;
 }, 999, 1);
 
 function custom_add_meta_description_tag() {
-    global $global_wp_manga_functions;
-    global $global_manga_chapters;
-    $cur_chap = get_query_var('chapter');
-    $cur_chap_name = '';
-    $cur_vol_name = '';
-    $h_chap_related_name_1 = '';
-    $h_chap_related_name_2 = '';
-    foreach ($global_manga_chapters as $h_vol) {
-        for ($i = 0; $i < sizeof($h_vol['chapters']); $i++) {
-            $h_chap = $h_vol['chapters'][$i];
-            if ($h_chap['chapter_slug'] == $cur_chap) {
-                $cur_chap_name = $h_chap['chapter_name'];
-                $cur_vol_name = $h_vol['volume_name'];
-
-                if (sizeof($h_vol['chapters']) > 2) {
-                    if ($i == sizeof($h_vol['chapters']) - 1) {
-                        $h_chap_related_name_1 = $h_vol['chapters'][$i - 1]['chapter_name'];
-                        $h_chap_related_name_2 = $h_vol['chapters'][$i - 2]['chapter_name'];
-                    } else if ($i == sizeof($h_vol['chapters']) - 2) {
-                        $h_chap_related_name_1 = $h_vol['chapters'][$i - 1]['chapter_name'];
-                        $h_chap_related_name_2 = $h_vol['chapters'][$i + 1]['chapter_name'];
-                    } else {
-                        $h_chap_related_name_1 = $h_vol['chapters'][$i + 1]['chapter_name'];
-                        $h_chap_related_name_2 = $h_vol['chapters'][$i + 2]['chapter_name'];
-                    }
-                } else if (sizeof($h_vol['chapters']) == 2) {
-                    if ($i == sizeof($h_vol['chapters']) - 1) {
-                        $h_chap_related_name_1 = $h_vol['chapters'][$i - 1]['chapter_name'];
-                    } else {
-                        $h_chap_related_name_1 = $h_vol['chapters'][$i + 1]['chapter_name'];
-                    }
-                }
-
-                break;
-            }
-            if ($cur_chap_name != '') {
-                break;
-            }
-        }
-    }
-    $description = get_the_title() . ' - ' . $cur_chap_name;
-    $keyword = $description;
-    if ($h_chap_related_name_1 != '') {
-        $description = $description . '. Truyện liên quan: ' . get_the_title() . '-' . $h_chap_related_name_1;
-        $keyword = $keyword . ', ' . get_the_title() . ' - ' . $h_chap_related_name_1;
-    }
-    if ($h_chap_related_name_2 != '') {
-        $description = $description . ', ' . get_the_title() . '-' . $h_chap_related_name_2;
-        $keyword = $keyword . ', ' . get_the_title() . ' - ' . $h_chap_related_name_2;
-    }
-    $description = $description . '. Đọc ' . get_the_title() . ' mới nhất tại 10manga.com. Kho truyện tranh, truyện chữ lớn nhất Việt Nam';
+    $description = $description . 'Đọc truyện tranh ' . get_the_title() . ' tiếng Việt mới nhất tại 10manga.com. Kho truyện tranh, truyện chữ lớn nhất Việt Nam';
     ?>
-    <meta name="keywords" content="<?php echo $keyword; ?>"/>
     <meta name="description" content="<?php echo $description; ?>" />
-	<meta http-equiv="content-language" content="vi" />
+    <meta http-equiv="content-language" content="vi" />
     <?php
 }
 
@@ -167,8 +70,13 @@ if ($madara_single_sidebar == 'full') {
                     <!-- container & no-sidebar-->
                     <div class="main-col-inner">
                         <div class="c-blog-post">
-                            <div class="entry-header">
-<?php $wp_manga->manga_nav('header'); ?>
+                            <div class="entry-header" id="manga-nav-header" name="<?php echo get_the_ID()?>" data-value="<?php echo get_query_var( 'chapter' )?>">
+                                <div class="wp-manga-nav">
+					<div class="entry-header_wrap">
+						<?php   global $wp_manga_template;
+                                                $wp_manga_template->load_template( 'manga', 'breadcrumb', true ); ?>
+					</div>
+                                </div>
                             </div>
                             <h1><?php echo the_title() . ': ' . $c_name; ?></h1>
                             <div class="entry-content">
@@ -214,9 +122,7 @@ if ($madara_single_sidebar == 'full') {
                             </div>
                             <h1><?php echo the_title() . ': ' . $c_name; ?></h1>
                         </div>
-                        <div class="c-select-bottom">
-<?php $wp_manga->manga_nav('footer'); ?>
-                        </div>
+                        <div class="c-select-bottom" id="manga-nav-footer">
                         <div style="float: right">
 <?php
 if (function_exists("kk_star_ratings")) : echo kk_star_ratings($pid);

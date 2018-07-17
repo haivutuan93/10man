@@ -846,7 +846,7 @@
 
 			$volumes = $wp_manga_volume->get_volumes( array(
 				'post_id' => $post_id
-			) );
+			));
 
 			$manga_chapters = array();
 

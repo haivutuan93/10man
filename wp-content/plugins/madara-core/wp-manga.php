@@ -348,7 +348,7 @@
 		}
 
 		function manga_nav( $position ) {
-                    global $global_manga_chapters, $global_chapter_by_slug;
+                    global $global_chapter_by_slug;
                     if( isset( $GLOBALS['madara_manga_navigation_html'] ) ){
 				echo $this->wp_manga_nav_breadcrumbs( $GLOBALS['madara_manga_navigation_html'], $position );
 				return;
@@ -363,8 +363,7 @@
                         $chapter = $global_chapter_by_slug;
 
 			//all chaps in same volume
-//			$all_chaps = $wp_manga_volume->get_volume_chapters( get_the_ID(), $chapter['volume_id'], 'name', 'asc' );
-                        $all_chaps = $global_manga_chapters[$chapter['volume_id']][chapters];
+			$all_chaps = $wp_manga_volume->get_volume_chapters( get_the_ID(), $chapter['volume_id'], 'name', 'asc' );
 
 			if ( ! $chapter ) {
 				return;

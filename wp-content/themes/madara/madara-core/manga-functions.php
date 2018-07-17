@@ -607,29 +607,29 @@
 
 	}
 
-	add_filter( 'pre_get_document_title', 'change_title_for_manga_single' );
-	function change_title_for_manga_single( $title ) {
-		global $post, $wp_manga_chapter, $wp_manga_setting, $global_chapter_by_slug;
-		if ( is_single() && isset( $post->post_type ) && $post->post_type == 'wp-manga' && get_query_var( 'chapter' ) != '' ) {
-
-			$single_manga_seo = $wp_manga_setting->get_manga_option( 'single_manga_seo', 'manga' );
-			$site_name        = get_bloginfo( 'name' );
-
-			$chapter_slug = get_query_var( 'chapter' );
-//			$chapter      = $wp_manga_chapter->get_chapter_by_slug( $post->ID, $chapter_slug );
-                        $chapter = $global_chapter_by_slug;
-			$chapter_name = $chapter['chapter_name'];
-
-			$title = $post->post_title . ' - ' . $chapter_name;
-			if ( $single_manga_seo == 1 ) {
-				$title .= ' - ' . $site_name;
-			}
-
-			return $title;
-		}
-
-		return $title;
-	}
+//	add_filter( 'pre_get_document_title', 'change_title_for_manga_single' );
+//	function change_title_for_manga_single( $title ) {
+//		global $post, $wp_manga_chapter, $wp_manga_setting, $global_chapter_by_slug;
+//		if ( is_single() && isset( $post->post_type ) && $post->post_type == 'wp-manga' && get_query_var( 'chapter' ) != '' ) {
+//
+//			$single_manga_seo = $wp_manga_setting->get_manga_option( 'single_manga_seo', 'manga' );
+//			$site_name        = get_bloginfo( 'name' );
+//
+//			$chapter_slug = get_query_var( 'chapter' );
+////			$chapter      = $wp_manga_chapter->get_chapter_by_slug( $post->ID, $chapter_slug );
+//                        $chapter = $global_chapter_by_slug;
+//			$chapter_name = $chapter['chapter_name'];
+//
+//			$title = $post->post_title . ' - ' . $chapter_name;
+//			if ( $single_manga_seo == 1 ) {
+//				$title .= ' - ' . $site_name;
+//			}
+//
+//			return $title;
+//		}
+//
+//		return $title;
+//	}
 
 	function madara_reading_page_classes( $classes ) {
 

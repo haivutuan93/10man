@@ -49,7 +49,7 @@
                         foreach ( $all_chaps as $chap ) {
 
                                         //$link = $wp_manga_functions->build_chapter_url( get_the_ID(), $chap['chapter_slug'] );
-										$link = $wp_manga_functions->build_chapter_url_not_by_slug( get_the_ID(),$chap, $chap['chapter_slug'] );
+					$link = $wp_manga_functions->build_chapter_url_not_by_slug( get_the_ID(),$chap, $chap['chapter_slug'] );
 
 //                                        if( isset( $cur_chap_passed ) && !isset( $next_chap ) ){
 //                                            $next_chap = $link;
@@ -139,7 +139,142 @@
             <?php
 
         }
+        
+        function manga_nav_ajax( $args, $post_id ){
 
+            global $wp_manga_template, $wp_manga, $wp_manga_functions, $wp_manga_chapter;
+
+            extract( $args );
+			$single_chap = $wp_manga->get_single_chapter( $post_id, $chapter['chapter_id'] );
+			global $wp_manga_volume, $wp_manga_storage;
+			$all_vols = $wp_manga_volume->get_manga_volumes( $post_id );
+			$cur_vol = get_query_var( 'volume' );
+
+            ?>
+
+            <div class="wp-manga-nav">
+                <div class="select-view">
+                    <?php
+                    if( !empty( $all_vols ) ){
+							?>
+							<div class="c-selectpicker selectpicker_volume">
+								<label>
+									<select class="selectpicker volume-select">
+										<?php foreach ( $all_vols as $vol ) { ?>
+												<?php
+													$vol_slug = $wp_manga_storage->slugify( $vol['volume_name'] );
+													if( $vol_slug == $cur_vol ){
+														$cur_vol_id = $vol['volume_id'];
+													}
+												?>
+												<option class="short" data-limit="40" value="<?php echo $vol['volume_id'] ?>" <?php selected( $vol_slug, $cur_vol, true ) ?>>
+													<?php echo esc_attr( $vol['volume_name'] ); ?>
+												</option>
+										<?php } ?>
+									</select>
+								</label>
+							</div>
+							<?php
+						}
+                    ?>
+                    
+                    <div class="chapter-selection">
+                        <?php
+                        foreach ( $all_chaps as $chap ) {
+
+                                        //$link = $wp_manga_functions->build_chapter_url( $post_id, $chap['chapter_slug'] );
+					$link = $wp_manga_functions->build_chapter_url_not_by_slug( $post_id,$chap, $chap['chapter_slug'] );
+
+//                                        if( isset( $cur_chap_passed ) && !isset( $next_chap ) ){
+//                                            $next_chap = $link;
+//                                        }
+                                        if( isset( $cur_chap_passed ) && !isset( $prev_chap ) ){
+                                            $prev_chap = $link;
+                                        }
+
+                                        if( $chap['chapter_slug'] == $cur_chap ){
+                                            $cur_chap_passed = true;
+                                            $cur_chap_link = $link;
+                                        }
+
+                                        //always set current chap in loop as $prev_chap, stop once current chap is passed
+//                                        if( !isset( $cur_chap_passed ) ){
+//                                            $prev_chap = $link;
+//                                        }
+                                        if( !isset( $cur_chap_passed ) ){
+                                            $next_chap = $link;
+                                        }
+                        }
+                        ?>
+						<?php
+							if( !in_array( $chapter['volume_id'], array_column( $all_vols, 'volume_id' ) ) ){
+								array_push( $all_vols, array(
+									'volume_id' => $chapter['volume_id']
+								) );
+							}
+							$this_vol_all_chaps = $all_chaps;
+						?>
+						<?php foreach( $all_vols as $vol ){ ?>
+							<?php
+								if( $vol['volume_id'] == $chapter['volume_id'] ){
+									$all_chaps = $this_vol_all_chaps;
+								}else{
+									$all_chaps = $wp_manga_volume->get_volume_chapters( $post_id, $vol['volume_id'], 'name', 'asc' );
+								}
+
+								if( empty( $all_chaps ) ){
+									continue;
+								}
+
+								$is_current_vol = $chapter['volume_id'] == $vol['volume_id'] ? true : false;
+							?>
+							<div class="c-selectpicker selectpicker_chapter" for="volume-id-<?php echo esc_attr( $vol['volume_id'] ); ?>" <?php echo !$is_current_vol ? 'style="display:none;"' : '';?> >
+		                        <label>
+									<select class="selectpicker single-chapter-select">
+
+										<?php if( !$is_current_vol ){ ?>
+											<option><?php esc_html_e('Chọn Chapter', WP_MANGA_TEXTDOMAIN); ?></option>
+										<?php } ?>
+
+										<?php
+											foreach ( $all_chaps as $chap ) {
+												//$link = $wp_manga_functions->build_chapter_url( $post_id, $chap['chapter_slug'], $style );
+												$link = $wp_manga_functions->build_chapter_url_not_by_slug( $post_id,$chap, $chap['chapter_slug'] );
+												?>
+                                                                                        <option class="short" label="<?php echo esc_attr( $chap['chapter_name'] . $wp_manga_functions->filter_extend_name( $chap['chapter_name_extend'] ) ); ?>" data-limit="40" value="<?php echo $chap['chapter_slug'] ?>" data-redirect="<?php echo esc_url( $link ) ?>" <?php selected( $chap['chapter_slug'], $cur_chap, true ) ?>>
+													<?php echo esc_attr( $chap['chapter_name'] . $wp_manga_functions->filter_extend_name( $chap['chapter_name_extend'] ) ); ?>
+												</option>
+											<?php }
+										?>
+		                            </select>
+								</label>
+		                    </div>
+						<?php } ?>
+                    </div>
+
+                </div>
+
+                <div class="select-pagination">
+                    <div class="nav-links">
+                        
+                        
+                        <?php if ( isset( $prev_chap ) && $prev_chap !== $cur_chap_link ): ?>
+                            <div class="nav-previous"><a href="<?php echo $prev_chap; ?>" class="btn prev_page">Trước</a>
+                            </div>
+                        <?php endif ?>
+                        <?php if ( isset( $next_chap ) ): ?>
+                            <div class="nav-next"><a href="<?php echo $next_chap ?>" class="btn next_page"><?php esc_html_e('Sau', WP_MANGA_TEXTDOMAIN ); ?></a></div>
+                        <?php endif ?>
+                    </div>
+                </div>
+
+            </div>
+
+            <?php
+
+        }
+        
+        
         /**
      	 * Get chapter_content post type which contains content for this chapter
     	 */

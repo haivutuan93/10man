@@ -128,7 +128,6 @@
                     $chapter_keywords .= ', ' . $site_name;
                 }
                 $is_manga_chapter = true;
-                $meta_tags_html .= "\n" . '<meta name="description" content="' . $description . '"/>' . "\n";
                 $meta_tags_html .= '<meta name="keywords" content="' . $post->post_title . ', ' . $chapter_keywords . '"/>' . "\n";
             }
 
