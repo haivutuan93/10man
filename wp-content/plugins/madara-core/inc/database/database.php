@@ -122,7 +122,7 @@
 							ORDER BY $sort_by $sort_order
 						";
 				if($num_limit){
-					$sql .= " LIMIT $num_limit" ;                                      
+					$sql .= " order by date desc LIMIT $num_limit" ;                                      
                 }
 			}else{
 				$sql = "
@@ -134,7 +134,7 @@
 					$sql .= "WHERE $where";
 				}
 				if($num_limit){
-					$sql .= " LIMIT $num_limit" ;                                      
+					$sql .= " order by date desc LIMIT $num_limit" ;                                      
                 }
 			}
 
