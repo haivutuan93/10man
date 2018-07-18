@@ -2,8 +2,8 @@
 
 class JSON_API_Ajax_Controller {
     public function ajax_chapter() {
-        $post_id = $_POST[postID];
-        $cur_chap = $_POST[curChap];
+        $post_id = $_GET[postID];
+        $cur_chap = $_GET[curChap];
         global $wp_manga_chapter, $wp_manga_text_type, $wp_manga;
 
         $chapter = $wp_manga_chapter->get_chapter_by_slug($post_id, $cur_chap);
