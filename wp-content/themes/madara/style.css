@@ -8433,3 +8433,13 @@ body.single .paging-navigation:last-child {
   font-size: 12px;
   margin-bottom: 0;
 }
+@media only screen and (max-width: 1199px) {
+    #manga-nav-header{
+        margin-bottom: 115px
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #manga-nav-header{
+        margin-bottom: 62px
+    }
+}

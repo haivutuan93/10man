@@ -5,15 +5,16 @@ jQuery(document).ready(function($){
             var curChap = $("#manga-nav-header").attr("data-value");
             $.ajax({
 			type : 'POST',
-			url : manga.ajax_url,
+			url : 'https://10manga.com/api/ajax/ajax_chapter/',
 			data : {				
 				action : 'wp-manga-list-chapter-reading', 
                                 postID: postID,
                                 curChap: curChap
 			},
 			success : function( response ){
-                                $('#manga-nav-header').append(response.trim());
-                                $('#manga-nav-footer').html(response.trim());
+                                $('#manga-nav-header').css("margin-bottom", 0 +"px");
+                                $('#manga-nav-header').append(response);
+                                $('#manga-nav-footer').html(response);
 			}
 		});
         }
