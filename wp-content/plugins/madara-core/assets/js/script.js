@@ -1,13 +1,16 @@
 jQuery(document).ready(function($){
-        addChapterListReadingPage();
+        var postID = $("#manga-nav-header").attr("name");
+        var curChap = $("#manga-nav-header").attr("data-value");
+        if(postID != null && curChap != null){
+            addChapterListReadingPage();
+        }
+        
         function addChapterListReadingPage(){
-            var postID = $("#manga-nav-header").attr("name");
-            var curChap = $("#manga-nav-header").attr("data-value");
             $.ajax({
 			type : 'GET',
 			url : 'https://10manga.com/api/ajax/ajax_chapter/',
 			data : {				
-				action : 'wp-manga-list-chapter-reading', 
+				action : 'chapters', 
                                 postID: postID,
                                 curChap: curChap
 			},
