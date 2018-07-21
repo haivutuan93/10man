@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-        var postID = $("#manga-nav-header").attr("name");
+	var postID = $("#manga-nav-header").attr("name");
         var curChap = $("#manga-nav-header").attr("data-value");
         if(postID != null && curChap != null){
             addChapterListReadingPage();
@@ -18,10 +18,19 @@ jQuery(document).ready(function($){
                                 $('#manga-nav-header').css("margin-bottom", 0 +"px");
                                 $('#manga-nav-header').append(response);
                                 $('#manga-nav-footer').html(response);
-			}
+			},
+			
 		});
-        }
+        }	
 
+			$('form#blog-post-search').append('<input type="hidden" name="post_type" value="wp-manga">');
+
+			$('form#blog-post-search').addClass("manga-search-form");
+
+			$('form#blog-post-search input[name="s"]').addClass("manga-search-field");
+
+		
+	
 	function chapterNavigationAjax( page ){
 
 		if( typeof reading_ajax_params == 'undefined' ){
@@ -147,8 +156,6 @@ jQuery(document).ready(function($){
 			}
 			return true;
 		});
-                
-                
 	});
 
 	$(document).on( 'change', '.wp-manga-nav .single-chapter-select, #single-pager, .wp-manga-nav .host-select, .wp-manga-nav .reading-style-select', function(e){
@@ -506,5 +513,5 @@ jQuery(document).ready(function($){
 
 		}
 	});
-
+	
 });

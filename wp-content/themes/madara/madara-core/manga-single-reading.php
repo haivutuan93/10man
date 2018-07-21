@@ -122,8 +122,9 @@ if ($madara_single_sidebar == 'full') {
                             </div>
                             <h1><?php echo the_title() . ': ' . $c_name; ?></h1>
                         </div>
-                        <div class="c-select-bottom" id="manga-nav-footer">
-                        <div style="float: right">
+                        <div class="c-select-bottom" >
+						<div id="manga-nav-footer"></div>
+						<div style="float: right; margin-top: 40px">
 <?php
 if (function_exists("kk_star_ratings")) : echo kk_star_ratings($pid);
 endif;
